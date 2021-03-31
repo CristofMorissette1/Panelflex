@@ -1,0 +1,60 @@
+import Head from 'next/head';
+import { Component } from 'react';
+import Header from '../components/header';
+import Footer from '../components/footer';
+
+
+class Home extends Component {
+  render() {
+    return (
+      <div className="homeMainContainer">
+        <Header/>
+        <div className="homeHeaderContainer">
+          <h1 className="homeMainTitle">We Build Electrical Control Panels</h1>
+          <h3 className="homeTitleSmall">PanelFlex is an engineering solutions company providing custom electrical control panels and products.</h3>
+          <img className="homeLandingImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/home%2Fhome%20landing.jpg?alt=media&token=10a6df3d-56dd-4aea-9909-3860352b2671"/>
+          <a className="homeFirstButton" href="/contact">Request a quote</a>
+          <a className="homeSecondButton" href="/products">What can we do</a>
+        </div>
+        <div className="homeBodyContainer">
+          <h1 className="homeBodyTitle">What Can We Do For You</h1>
+          <div className="homeBodyContainerSmall">
+            <h3 className="homeBodyTitleSmall">PANEL DESIGN & FABRICATION</h3>
+            <p className="homeBodyText">The Electrical Engineers at PanelShop.com will custom design industrial controls to your specific needs.  We treat projects of every size with the same dedication of excellence in our workmanship.</p>
+          </div>
+          <div className="homeBodyContainerSmall">
+            <h3 className="homeBodyTitleSmall">INSTALLATION & SUPPORT</h3>
+            <p className="homeBodyText">PanelFlex offers complete or partial system installation with continued support throughout the product life. Our quality products and thorough after-sale assistance allow you to focus on your core business.</p>
+          </div>
+          <div className="homeBodyContainerSmall">
+            <h3 className="homeBodyTitleSmall">OEM BUILDS & PRIVATE LABELING</h3>
+            <p className="homeBodyText">PanelFlex helps our OEM customers in a variety of industrial fields to reduce their control system costs, improve efficiency and overall quality.</p>
+          </div>
+          <div className="homeBodyContainerSmall">
+            <h3 className="homeBodyTitleSmall">CONTROLS SUPPORT/SERVICE</h3>
+            <p className="homeBodyText">Support for your project is a priority at PanelFlex. We are confident that any configuration made on our site is verified by our engineers as correct and is electrically sound.</p>
+          </div>
+          <a className="homeBodyButton" href="/products">View All Products</a>
+        </div>
+        <div className="homeMainCapabilitiesContainer">
+          <div className="homeCapabilitiesContainer2">
+            <h2 className="homeCapabilitiesContainerTitle">Our Capabilities</h2>
+            <p className="homeCapabilitiesText">We serve as your panel building partner from concept to completion, solving tough electrical control challenges and helping businesses grow.</p>
+            <a className="homeCapabilitiesButton" href="/capabilities">View All Capabilities</a>
+          </div>
+          <div className="homeCapabilitiesContainer3">
+            <h2 className="homeCapabilitiesTitle">BUILD-TO-PRINT OR CUSTOM BUILDS</h2>
+            <p className="homeCapabilitiesTextSmall">Our capabilities cover a broad range of industries and applications, and we are UL Listed as well as certified for hazardous locations. We have the experience and capacity to produce the highest quality project with the engineering expertise and customer service you deserve.</p>
+            <h2 className="homeCapabilitiesTitle">COMPLETE TURNKEY SOLUTIONS</h2>
+            <p className="homeCapabilitiesTextSmall">Having extensive capabilities allows PanelShop.com to take on a wide variety of custom projects of all sizes. Whatever your needs, PanelShop.com has the ability to make your project a success.</p>
+            <h2 className="homeCapabilitiesTitle">CUSTOM PROGRAMMING</h2>
+            <p className="homeCapabilitiesTextSmall">PanelFlex will custom build far beyond the configurator selections to satisfy all customer needs—large and small.</p>
+          </div>
+        </div>
+        <Footer/>
+      </div>
+    )
+  }
+}
+
+export default Home;
