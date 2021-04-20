@@ -47,6 +47,9 @@ class Header extends Component {
                                             <a className="navLinks" href="/lightingpanels">Lighting Control Panels</a>
                                             <a className="navLinks" href="/telecommunicationpanels">Instrument Racks/Telecommunication Panels</a>
                                             <a className="navLinks" href="/staging">Staging</a>
+                                            <a className="navLinks" href="/combinerbox">PV Combiner box</a>
+                                            <a className="navLinks" href="/protectionpanel">Protection Panels</a>
+                                            <a className="navLinks" href="/skids">Buildings & Skids</a>
                                         </div>
                                     </div>
                                 ) :

@@ -9,7 +9,7 @@ class TelecommunicationPanels extends Component {
         return (
             <div className="pclPanelsMainContainer">
                 <Header/>
-                <div className="homeHeaderContainer">
+                <div className="teleHeaderContainer">
                     <h1 className="pclMainTitle">Instrument Racks/Telecommunication Panels</h1>
                     <img className="pclLandingImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/pcl%20panel%20page%2Fpcl%20panel%20landing.jpg?alt=media&token=b6d7ddc7-bd10-461e-b261-a0883ddbbb80"/>
                 </div>

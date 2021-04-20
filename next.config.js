@@ -15,7 +15,10 @@ module.exports = {
         '/lightingpanels' : { page: '/lightingpanels'},
         '/telecommunicationpanels' : { page: '/telecommunicationpanels'},
         '/staging' : { page: '/staging'},
-        '/discoverpfx' : { page: '/discoverpfx'}
+        '/discoverpfx' : { page: '/discoverpfx'},
+        '/combinerbox' : { page: '/combinerbox'},
+        '/skids' : { page: '/skids'},
+        '/protectionpanel' : { page: '/protectionpanel'}
       }
     }
   };

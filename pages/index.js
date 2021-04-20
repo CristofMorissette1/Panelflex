@@ -11,28 +11,29 @@ class Home extends Component {
         <Header/>
         <div className="homeHeaderContainer">
           <h1 className="homeMainTitle">We Build Electrical Control Panels</h1>
-          <h3 className="homeTitleSmall">PanelFlex is an engineering solutions company providing custom electrical control panels and products.</h3>
-          <img className="homeLandingImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/home%2Fhome%20landing.jpg?alt=media&token=10a6df3d-56dd-4aea-9909-3860352b2671"/>
-          <a className="homeFirstButton" href="/contact">Request a quote</a>
-          <a className="homeSecondButton" href="/products">What can we do</a>
+          <h3 className="homeTitleSmall">PANELFLEX is a CSA approved, COR certified Custom Electrical Control Panel Solutions provider</h3>
+          <div className="homeHeaderButtons">
+            <a className="homeFirstButton" href="/contact">Request a quote</a>
+            <a className="homeSecondButton" href="/products">What can we do</a>
+          </div>
         </div>
         <div className="homeBodyContainer">
           <h1 className="homeBodyTitle">What Can We Do For You</h1>
           <div className="homeBodyContainerSmall">
             <h3 className="homeBodyTitleSmall">PANEL DESIGN & FABRICATION</h3>
-            <p className="homeBodyText">The Electrical Engineers at PanelShop.com will custom design industrial controls to your specific needs.  We treat projects of every size with the same dedication of excellence in our workmanship.</p>
+            <p className="homeBodyText">The PANELFLEX team will help custom design industrial controls to your specific needs.  We treat projects of every size with the same dedication of excellence in our workmanship.</p>
           </div>
           <div className="homeBodyContainerSmall">
-            <h3 className="homeBodyTitleSmall">INSTALLATION & SUPPORT</h3>
-            <p className="homeBodyText">PanelFlex offers complete or partial system installation with continued support throughout the product life. Our quality products and thorough after-sale assistance allow you to focus on your core business.</p>
+            <h3 className="homeBodyTitleSmall">INSTALLATION & SUPPORT AND CONTROLS SUPPORT/SERVICE</h3>
+            <p className="homeBodyText">With the help of our industry partners we are able to offers turnkey solutions that include: -Install Support, - Programming, - Skid Construction.</p>
           </div>
           <div className="homeBodyContainerSmall">
             <h3 className="homeBodyTitleSmall">OEM BUILDS & PRIVATE LABELING</h3>
-            <p className="homeBodyText">PanelFlex helps our OEM customers in a variety of industrial fields to reduce their control system costs, improve efficiency and overall quality.</p>
+            <p className="homeBodyText">PANELFLEX helps our OEM customers in a variety of industrial fields to reduce their control system costs, improve efficiency and overall quality.</p>
           </div>
           <div className="homeBodyContainerSmall">
             <h3 className="homeBodyTitleSmall">CONTROLS SUPPORT/SERVICE</h3>
-            <p className="homeBodyText">Support for your project is a priority at PanelFlex. We are confident that any configuration made on our site is verified by our engineers as correct and is electrically sound.</p>
+            <p className="homeBodyText">Support for your project is a priority at PANELFLEX. We are confident that any configuration made on our site is verified by our engineers as correct and is electrically sound.</p>
           </div>
           <a className="homeBodyButton" href="/products">View All Products</a>
         </div>
@@ -48,7 +49,7 @@ class Home extends Component {
             <h2 className="homeCapabilitiesTitle">COMPLETE TURNKEY SOLUTIONS</h2>
             <p className="homeCapabilitiesTextSmall">Having extensive capabilities allows PanelShop.com to take on a wide variety of custom projects of all sizes. Whatever your needs, PanelShop.com has the ability to make your project a success.</p>
             <h2 className="homeCapabilitiesTitle">CUSTOM PROGRAMMING</h2>
-            <p className="homeCapabilitiesTextSmall">PanelFlex will custom build far beyond the configurator selections to satisfy all customer needs—large and small.</p>
+            <p className="homeCapabilitiesTextSmall">PANELFLEX will custom build far beyond the configurator selections to satisfy all customer needs—large and small.</p>
           </div>
         </div>
         <Footer/>

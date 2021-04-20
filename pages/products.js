@@ -68,6 +68,27 @@ class Products extends Component {
               <p className="individualProductsText">Panelflex supports clients' requirement to point to point, power up or program test their panels before shipping, and is eager in providing them the most pleasant testing experience. Customers are welcome to drop by any time during regular business hours to follow up on their projects.</p>
             </div>
           </div></a>
+          <a href="/combinerbox" className="individualProductsLink"><div className="individualProducts">
+            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FPV%20Combiner%20box.JPG?alt=media&token=82a1d3ad-89cd-4ee1-9a11-232c5a61a46c"></img>
+            <div className="individualProductsDescription">
+              <h3 className="individualProductsTitle">PV Combiner Box</h3>
+              <p className="individualProductsText">CSA approved 1000VDC & 1500VDC Panelflex PV system Combiner Boxes. Combiner Boxes can be customized to fit the solar integrators’ specific needs.</p>
+            </div>
+          </div></a>
+          <a href="/protectionpanel" className="individualProductsLink"><div className="individualProducts">
+            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fprotection%20panel.jpg?alt=media&token=082f2125-f79f-471f-83c8-7cb7c61780ac"></img>
+            <div className="individualProductsDescription">
+              <h3 className="individualProductsTitle">Protection Panels</h3>
+              <p className="individualProductsText">CSA approved 1000VDC & 1500VDC Panelflex PV system Combiner Boxes. Combiner Boxes can be customized to fit the solar integrators’ specific needs.</p>
+            </div>
+          </div></a>
+          <a href="/skids" className="individualProductsLink"><div className="individualProducts">
+            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fskids.JPG?alt=media&token=cc105174-8335-4c2e-b75d-fda19601eeef"></img>
+            <div className="individualProductsDescription">
+              <h3 className="individualProductsTitle">Building & Skids</h3>
+              <p className="individualProductsText">CSA approved 1000VDC & 1500VDC Panelflex PV system Combiner Boxes. Combiner Boxes can be customized to fit the solar integrators’ specific needs.</p>
+            </div>
+          </div></a>
             </div>
             <Footer/>
         </div>
