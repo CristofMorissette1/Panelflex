@@ -26,7 +26,7 @@ class Header extends Component {
         return (
             <div className="Header">
                 <div className="mainHeader">
-                    <p className="logo">PanelFlex</p>
+                    <a href="/"><img className="logo" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/Header%2FPanelflex.jpg?alt=media&token=e3229ecb-67d3-4a00-952e-10caa1e86196"/></a>
                     <div className="link_container">
                         <div className="linkContainerSmall">
                             <a className="links" href="/"><p className="mainHeaderLinkText">Home</p></a>
