@@ -165,3 +165,6 @@ button:hover {
     flex-wrap: wrap;
   }
 
+.maps_container {
+    width: 5%;
+}

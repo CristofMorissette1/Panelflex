@@ -5,10 +5,31 @@ import Footer from '../components/footer';
 
 
 class Home extends Component {
+  constructor(){
+    super()
+    this.state={
+        showServicesMenu: false,
+    }
+    this.showServicesMenu = this.showServicesMenu.bind(this);
+}
+
+  showServicesMenu(e) {
+      e.preventDefault();
+      if (this.state.showServicesMenu == false) {
+      this.setState({
+        showServicesMenu: true,
+      });
+    } else {
+      this.setState({
+        showServicesMenu: false,
+      });
+    }
+  }
+
   render() {
     return (
       <div className="homeMainContainer">
-        <Header/>
+        <Header/>         
         <div className="homeHeaderContainer">
           <h1 className="homeMainTitle">We Build Electrical Control Panels</h1>
           <h3 className="homeTitleSmall">PANELFLEX is a CSA approved, COR certified Custom Electrical Control Panel Solutions provider</h3>
