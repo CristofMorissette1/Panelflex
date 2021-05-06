@@ -1,9 +1,22 @@
 import Head from 'next/head';
 import { Component } from 'react';
 import Header from '../components/header';
+import Chatbot from '../components/chatbot';
+import Image from 'next/image';
 
 
 class Csa extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          check: false,
+        };
+      }
+    
+    changeCheck = () => {
+    this.state.check?this.setState({check: false}):this.setState({check: true})
+    }
+
     render() {
         return (
             <div className="csaMainContainer">
@@ -20,6 +33,29 @@ class Csa extends Component {
                     <p className="csaTextSmall">Canadian and US Certification:<br/> Control assemblies bearing c CSA us are certified to have been built in accordance with or exceed the applicable requirements of CSA C22.2 #14 and UL 508 and are approved for use in Canada and the United States.   See "US Certification" for description of American certification.</p>
                 </div>
             </div>
+            {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
+                {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
+                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <div style={{ marginTop: '20px', backgroundColor: 'green', borderRadius: '50%', padding: '16px', marginRight: '0px', marginLeft: 'auto' }} onClick={this.changeCheck}>
+                <Image
+                src="/cross.png"
+                alt="PanelFlex.com"
+                width={35}
+                height={35}
+                />
+                </div>
+                </div>
+                </div>:
+                // <button style={{position: 'fixed', bottom: '10px', right: '20px', }} onClick={this.changeCheck}>Open Chat</button>
+                <div style={{position: 'fixed', bottom: '10px', right: '20px', backgroundColor: 'green', borderRadius: '50%', padding: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center'}} onClick={this.changeCheck}>
+                <Image
+                src="/chat-icon.png"
+                alt="PanelFlex.com"
+                width={55}
+                height={55}
+                />
+                </div>
+                }
             </div>
         )
     }

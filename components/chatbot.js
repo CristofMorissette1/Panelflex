@@ -37,7 +37,6 @@ class Chatbot extends React.Component{
       }
     }
     const sendMail = async () => {
-      console.log("Ander name", this.state)
       var name = this.state.name;
       var email = this.state.email;
       var company = this.state.company;
