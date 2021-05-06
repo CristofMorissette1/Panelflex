@@ -2,7 +2,6 @@ import Head from 'next/head';
 import { Component } from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import SimpleMap from '../components/googlemaps';
 
 class DiscoverPfx extends Component {
     render() {
@@ -62,7 +61,6 @@ class DiscoverPfx extends Component {
                         <img className="facilityImage1" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/discover%20pfx%2Ffacility2.jpg?alt=media&token=f9948afd-a54e-49f4-a1bf-558045b78c97"/>
                         <img className="facilityImage1" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/discover%20pfx%2Ffacility3.jpg?alt=media&token=ca89649b-bb8f-4930-a82e-035e8ccd542f"/>
                     </div>
-                    <SimpleMap/>
                     </div>
                 </div>
                 <Footer/>

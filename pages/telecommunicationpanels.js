@@ -11,11 +11,11 @@ class TelecommunicationPanels extends Component {
                 <Header/>
                 <div className="teleHeaderContainer">
                     <h1 className="pclMainTitle">Instrument Racks/Telecommunication Panels</h1>
-                    <img className="pclLandingImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/pcl%20panel%20page%2Fpcl%20panel%20landing.jpg?alt=media&token=b6d7ddc7-bd10-461e-b261-a0883ddbbb80"/>
                 </div>
                 <hr className="border1"/>
                 <div className="pclBodyContainer">
                     <p className="pclIntroText">Panelflex wide services are not limited to custom control panel assembly. We offer a wide range of manufacturing custom instrumentation transmitter racks and telecommunication / network panels.</p>
+                    <img className="instrumentPic" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Finstrument%20pic1.jpg?alt=media&token=a0344acd-4c5d-4955-8435-e1a30be5265b"/>
                 </div>
                 <Footer/>
             </div>
