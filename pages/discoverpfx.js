@@ -5,6 +5,7 @@ import Footer from '../components/footer';
 import Chatbot from '../components/chatbot';
 import Image from 'next/image';
 
+
 class DiscoverPfx extends Component {
     constructor(props) {
         super(props);

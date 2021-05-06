@@ -47,7 +47,19 @@ class Capabilities extends Component {
                         <li className="listItem">Compressor Panels</li>
                         <li className="listItem">Staging</li>
                     </ul>
-                    <p className="capabilitiesText">	Panelflex's manufacturing capabilities are the key to the implementation of any automation solution. Integral to this skill-set is the complete integration of design assistance, project management, procurement, fabrication, quality control and testing of automation solutions. Panelflex can assist in providing complete systems integration support for a broad array of industries.</p>
+                    <p className="capabilitiesText">Panelflex's manufacturing capabilities are the key to the implementation of any automation solution. Integral to this skill-set is the complete integration of design assistance, project management, procurement, fabrication, quality control and testing of automation solutions. Panelflex can assist in providing complete systems integration support for a broad array of industries.</p>
+                    <p className="capabilitiesTitleSmall">Panelflex is proud to serve the following markets:</p>
+                    <ul className="capabilitiesList">
+                        <li className="listItem">Oil & Gas producers</li>
+                        <li className="listItem">Equipment Fabricators</li>
+                        <li className="listItem">Mining</li>
+                        <li className="listItem">Drilling Contractors</li>
+                        <li className="listItem">Municipalities</li>
+                        <li className="listItem">Service Companies</li>
+                        <li className="listItem">EPC's</li>
+                        <li className="listItem">Utilities</li>
+                        <li className="listItem">Forestry</li>
+                    </ul>
                 </div>
                 {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
                 {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}

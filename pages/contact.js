@@ -4,8 +4,11 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import { Form, FormGroup, Input, Button, Label } from 'reactstrap'
 import axios from 'axios'
+
 import Chatbot from '../components/chatbot';
 import Image from 'next/image';
+
+import SimpleMap from '../components/googlemaps';
 
 class Contact extends Component {
   constructor(props){
@@ -65,6 +68,7 @@ class Contact extends Component {
                   <h2 className="contactName">Adham Jaber</h2>
                   <a className="contactText">Manager, Business Development</a>
                   <p className="contactText">Cell: (403) 481-1459</p>
+                  <p className="contactText">adham.jaber@panelflex.ca</p>
                 </div>
                 <div className="sideBarWebsite">
                   <h2 className="contactName">Tilak Dahanayake</h2>
@@ -147,6 +151,7 @@ class Contact extends Component {
               </FormGroup>
               <Button className="contactButton"><p className="contactButtonText">Submit</p></Button>
             </Form>
+            <SimpleMap/>
         </div>
         {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
         {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
@@ -171,6 +176,9 @@ class Contact extends Component {
         />
         </div>
         }
+        {/* <div className="mapContainer">
+          <SimpleMap/>
+        </div> */}
         <Footer/>
       </div>
     )

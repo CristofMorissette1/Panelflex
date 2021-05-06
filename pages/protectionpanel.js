@@ -23,8 +23,7 @@ class Combinerbox extends Component {
             <div className="pclPanelsMainContainer">
                 <Header/>
                 <div className="commercialHeaderContainer">
-                    <h1 className="pclMainTitle">PV Combiner Box</h1>
-                    <img className="pclLandingImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/pcl%20panel%20page%2Fpcl%20panel%20landing.jpg?alt=media&token=b6d7ddc7-bd10-461e-b261-a0883ddbbb80"/>
+                    <h1 className="pclMainTitle">Protection Panels</h1>
                 </div>
                 <hr className="border1"/>
                 <div className="pclBodyContainer">

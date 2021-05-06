@@ -23,12 +23,12 @@ class PclPanels extends Component {
                 <Header/>
                 <div className="pclHeaderContainer">
                     <h1 className="pclMainTitle">PCL Panels</h1>
-                    <img className="pclLandingImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/pcl%20panel%20page%2Fpcl%20panel%20landing.jpg?alt=media&token=b6d7ddc7-bd10-461e-b261-a0883ddbbb80"/>
                 </div>
                 <hr className="border1"/>
                 <div className="pclBodyContainer">
                     <p className="pclIntroText">Panelflex builds a variety of PLC panels for refrigeration, compression, plant facilities, waste water and many other applications.</p>
                     <h2 className="pclTitleSmall">Cabinet and Construction</h2>
+                    <img className="pclPic1" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fpcl%20pic.png?alt=media&token=40ed411b-741d-494c-a00f-071caf744036"/>
                     <p className="pclIntroText">All PLC panels are fabricated in standard NEMA 12/4/4X enclosures assembled by experienced technicians. Panel assemblies are CSA General Purpose or CSA Class I Div 2 certified. cUL is available as an option (where applicable).</p>
                     <h2 className="pclTitleSmall">I/O Wiring</h2>
                     <p className="pclIntroText">All PLC I/O points are wired at our shop to terminal blocks for use in terminating customer-supplied pilot devices or wiring from field devices. All wiring internal to the panel is factory-tested for continuity prior to shipment.</p>
@@ -49,6 +49,7 @@ class PclPanels extends Component {
                         <li className="pclListItem">Ethernet Switch</li>
                     </ul>
                 </div>
+
                 {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
                 {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
@@ -72,6 +73,7 @@ class PclPanels extends Component {
                 />
                 </div>
                 }
+                <img className="pclPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fpcl%20pic2.jpg?alt=media&token=2b671013-89d2-4985-8fcd-671875c5e1ac"/>
                 <Footer/>
             </div>
         )
