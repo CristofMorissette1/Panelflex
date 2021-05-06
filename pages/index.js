@@ -18,7 +18,8 @@ class Home extends Component {
   
   changeCheck = () => {
     this.state.check?this.setState({check: false}):this.setState({check: true})
-
+  }
+  
   showServicesMenu(e) {
       e.preventDefault();
       if (this.state.showServicesMenu == false) {
