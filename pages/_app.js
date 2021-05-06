@@ -15,8 +15,10 @@ import '../styles/vdfpanels.css';
 import '../styles/lightingpanels.css';
 import '../styles/telecommunicationspanels.css';
 import '../styles/staging.css';
+import '../styles/chatbot.css';
 import '../styles/combinerbox.css';
 import '../styles/protectionPanels.css';
+
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

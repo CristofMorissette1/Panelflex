@@ -4,12 +4,17 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import { Form, FormGroup, Input, Button, Label } from 'reactstrap'
 import axios from 'axios'
+
+import Chatbot from '../components/chatbot';
+import Image from 'next/image';
+
 import SimpleMap from '../components/googlemaps';
 
 class Contact extends Component {
   constructor(props){
     super(props)
     this.state = {
+      check: false,
       firstName: '',
       lastName: '',
       phone: '',
@@ -25,6 +30,10 @@ class Contact extends Component {
       [e.target.name]: e.target.value
     })
   }
+
+  changeCheck = () => {
+    this.state.check?this.setState({check: false}):this.setState({check: true})
+    }
 
   handleSumbit(e) {
     e.preventDefault();
@@ -144,6 +153,29 @@ class Contact extends Component {
             </Form>
             <SimpleMap/>
         </div>
+        {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
+        {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+        <div style={{ marginTop: '20px', backgroundColor: 'green', borderRadius: '50%', padding: '16px', marginRight: '0px', marginLeft: 'auto' }} onClick={this.changeCheck}>
+        <Image
+        src="/cross.png"
+        alt="PanelFlex.com"
+        width={35}
+        height={35}
+        />
+        </div>
+        </div>
+        </div>:
+        // <button style={{position: 'fixed', bottom: '10px', right: '20px', }} onClick={this.changeCheck}>Open Chat</button>
+        <div style={{position: 'fixed', bottom: '10px', right: '20px', backgroundColor: 'green', borderRadius: '50%', padding: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center'}} onClick={this.changeCheck}>
+        <Image
+        src="/chat-icon.png"
+        alt="PanelFlex.com"
+        width={55}
+        height={55}
+        />
+        </div>
+        }
         {/* <div className="mapContainer">
           <SimpleMap/>
         </div> */}
