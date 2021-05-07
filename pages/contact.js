@@ -5,11 +5,9 @@ import Footer from '../components/footer';
 import SimpleMap from '../components/googlemaps';
 import { Form, FormGroup, Input, Button, Label } from 'reactstrap'
 import axios from 'axios'
-
 import Chatbot from '../components/chatbot';
 import Image from 'next/image';
 
-import SimpleMap from '../components/googlemaps';
 
 class Contact extends Component {
   constructor(props){
@@ -158,7 +156,7 @@ class Contact extends Component {
         {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <div style={{ marginTop: '20px', backgroundColor: 'green', borderRadius: '50%', padding: '16px', marginRight: '0px', marginLeft: 'auto' }} onClick={this.changeCheck}>
-        <Image
+        <img
         src="/cross.png"
         alt="PanelFlex.com"
         width={35}
@@ -169,15 +167,15 @@ class Contact extends Component {
         </div>:
         // <button style={{position: 'fixed', bottom: '10px', right: '20px', }} onClick={this.changeCheck}>Open Chat</button>
         <div style={{position: 'fixed', bottom: '10px', right: '20px', backgroundColor: 'green', borderRadius: '50%', padding: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center'}} onClick={this.changeCheck}>
-        <Image
+          <img
         src="/chat-icon.png"
         alt="PanelFlex.com"
         width={55}
         height={55}
         />
         </div>
-        <SimpleMap />
         }
+        <SimpleMap />
         <Footer/>
       </div>
     )

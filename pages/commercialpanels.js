@@ -37,7 +37,7 @@ class CommercialPanels extends Component {
                 {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <div style={{ marginTop: '20px', backgroundColor: 'green', borderRadius: '50%', padding: '16px', marginRight: '0px', marginLeft: 'auto' }} onClick={this.changeCheck}>
-                <Image
+                <img
                 src="/cross.png"
                 alt="PanelFlex.com"
                 width={35}
@@ -48,7 +48,7 @@ class CommercialPanels extends Component {
                 </div>:
                 // <button style={{position: 'fixed', bottom: '10px', right: '20px', }} onClick={this.changeCheck}>Open Chat</button>
                 <div style={{position: 'fixed', bottom: '10px', right: '20px', backgroundColor: 'green', borderRadius: '50%', padding: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center'}} onClick={this.changeCheck}>
-                <Image
+                <img
                 src="/chat-icon.png"
                 alt="PanelFlex.com"
                 width={55}
