@@ -4,9 +4,17 @@ class Header extends Component {
     constructor(){
         super()
         this.state={
-            showServicesMenu: false
+            showServicesMenu: false,
+            home: true,
+            products: false,
+            discover: false,
+            capabilities: false,
+            csa: false,
+            contact: false
         }
         this.showServicesMenu = this.showServicesMenu.bind(this);
+        this.changeColour = this.changeColour.bind(this);
+        this. productColour = this.productColour.bind(this);
     }
 
       showServicesMenu(e) {
@@ -21,6 +29,38 @@ class Header extends Component {
           });
         }
       }
+
+    changeColour(e) {
+        e.preventDefault();
+        if (this.state.home == false) {
+            this.setState({
+                home: true,
+                products: false,
+                discover: false,
+                capabilities: false,
+                csa: false,
+                contact: false
+            })
+        } else {
+            null
+        }  
+        console.log(this.state) 
+    }
+
+    productColour(e) {
+        e.preventDefault();
+        if (this.state.products == false) {
+            this.setState({
+                home: false,
+                products: true,
+                discover: false,
+                capabilities: false,
+                csa: false,
+                contact: false
+            });
+        }
+        console.log(this.state)
+    }
     
     render(){
         return (
@@ -29,10 +69,10 @@ class Header extends Component {
                     <a href="/"><img className="logo" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/Header%2FPanelflex.jpg?alt=media&token=e3229ecb-67d3-4a00-952e-10caa1e86196"/></a>
                     <div className="link_container">
                         <div className="linkContainerSmall">
-                            <a className="links" href="/"><p className="mainHeaderLinkText">Home</p></a>
+                            <a className="links" href="/"><p className="mainHeaderLinkText" >Home</p></a>
                         </div>
                         <div className="linkContainerSmall">
-                            <a className="links" href="/products" onClick={this.showServicesMenu}><p className="mainHeaderLinkText">Products<b>↓</b></p></a>
+                            <a className="links" href="/products" onClick={this.showServicesMenu}><p className="mainHeaderLinkText" onClick={this.productColour}>Products<b>↓</b></p></a>
                             {
                                 this.state.showServicesMenu ?
                                 (

@@ -1,34 +1,34 @@
 import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
- 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+import {Marker, Map, GoogleApiWrapper} from 'google-maps-react';
  
 class SimpleMap extends Component {
-  static defaultProps = {
-    center: {
-      lat: 50.98,
-      lng: -113.97
-    },
-    zoom: 15,
-  };
+
  
   render() {
     return (
-      <div style={{ height: '40vh', width: '40%' }}>
-        <GoogleMapReact
-            bootstrapURLKeys={{ key: 'AIzaSyCz3NXsO5UwBofWVqsWautPzyb3bacNYPs' }}
-            defaultCenter={this.props.center}
-            defaultZoom={this.props.zoom}
-        >
-          <AnyReactComponent
-            lat={50.98}
-            lng={-113.97}
-            text="Location"
-          />
-        </GoogleMapReact>
+      <div>
+          <div className="mapsContainer">
+        <Map className='maps_container'
+              google={this.props.google}
+              initialCenter={{
+                lat: 50.9877125,
+                lng: -113.9761666
+              }}
+              zoom={18}
+            >
+                <Marker  
+                  position={{
+                    lat: 50.9877125,
+                lng: -113.9761666
+                  }}     
+                />
+            </Map>
+            </div>
       </div>
     );
   }
 }
  
-export default SimpleMap;
+export default GoogleApiWrapper({
+    apiKey: ('AIzaSyCz3NXsO5UwBofWVqsWautPzyb3bacNYPs')
+  })(SimpleMap)
