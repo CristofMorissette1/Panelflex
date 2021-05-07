@@ -2,6 +2,7 @@ import Head from 'next/head'
 import React, { Component } from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import SimpleMap from '../components/googlemaps';
 import { Form, FormGroup, Input, Button, Label } from 'reactstrap'
 import axios from 'axios'
 
@@ -141,6 +142,7 @@ class Contact extends Component {
               <Button className="contactButton"><p className="contactButtonText">Submit</p></Button>
             </Form>
         </div>
+        <SimpleMap />
         <Footer/>
       </div>
     )
