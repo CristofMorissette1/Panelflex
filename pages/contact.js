@@ -176,9 +176,6 @@ class Contact extends Component {
         />
         </div>
         }
-        {/* <div className="mapContainer">
-          <SimpleMap/>
-        </div> */}
         <Footer/>
       </div>
     )
