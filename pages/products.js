@@ -21,7 +21,9 @@ class Products extends Component {
         return (
             <div className="productMainContainer">
             <Header/>
-            <img className="productsLandingImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fproducts%20%26%20services%20image.jpg?alt=media&token=d876ff94-5064-4579-89c9-e55d4a6ee8c8"/>
+            <div className="productHeaderContainer">
+              <h1 className="pfxMainTitle">Products & Services</h1>
+            </div>
             <div className="product2ndContainer">
           <p className="productsMainText">PanelFlex offers a wide range of high-end affordable electrical panels. Their durability and advanced fastener systems allow for long lasting aesthetically pleasing finishes which makes them ideal for both commercial and residential projects.</p>   
           <a href="/pclpanels" className="individualProductsLink"><div className="individualProducts">

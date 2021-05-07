@@ -24,7 +24,6 @@ class DiscoverPfx extends Component {
                 <Header/>
                 <div className="discoverHeaderContainer">
                     <h1 className="pfxMainTitle">Discover PanelFlex</h1>
-                    <img className="homeLandingImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/discover%20pfx%2Fdiscoverpfx.png?alt=media&token=be511739-6eb3-4155-92c3-836c667e5ee4"/>
                 </div>
                 <div className="pfxBodyContainer">
                     <h2 className="pfxTitleSmall">Our Vision</h2>

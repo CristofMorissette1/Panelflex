@@ -18,6 +18,7 @@ import '../styles/staging.css';
 import '../styles/chatbot.css';
 import '../styles/combinerbox.css';
 import '../styles/protectionPanels.css';
+import '../styles/skids.css';
 
 
 function MyApp({ Component, pageProps }) {
