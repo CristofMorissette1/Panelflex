@@ -150,7 +150,6 @@ class Contact extends Component {
               </FormGroup>
               <Button className="contactButton"><p className="contactButtonText">Submit</p></Button>
             </Form>
-            <SimpleMap/>
         </div>
         {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
         {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
