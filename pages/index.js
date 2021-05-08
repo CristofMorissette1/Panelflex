@@ -3,7 +3,6 @@ import { Component, createRef } from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Chatbot from '../components/chatbot';
-// import Image from 'next/image';
 
 
 class Home extends Component {
