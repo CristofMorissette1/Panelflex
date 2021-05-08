@@ -2,7 +2,7 @@ module.exports = {
   distDir: 'out',
     exportPathMap: function () {
       return {
-        '/': { page: '/' },
+        '/': { page: '/index' },
         '/products': { page: '/products'},
         '/contact' : { page: '/contact'},
         '/csa' : { page: '/csa'},
