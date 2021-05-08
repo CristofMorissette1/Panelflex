@@ -1,4 +1,5 @@
 module.exports = {
+  distDir: 'out',
     exportPathMap: function () {
       return {
         '/': { page: '/' },
