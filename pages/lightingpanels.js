@@ -31,29 +31,7 @@ class LightingPanels extends Component {
                     <h2 className="pclTitleSmall">Some more information</h2>
                     <p className="pclIntroText">Contactors are utilized are specifically used for lighting applications, including metal halide, mercury vapor, quartz halogen, tungsten or fluorescent lighting. As the contactor(s)is mechanically held, the panels offer a quite operation and long life expectancy. We build to suit your design needs providing multi-pole contactor configurations in a various enclosures including NEMA 12, 3R, 4 and 4X.</p>
                 </div>
-                {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
-                {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
-                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                <div style={{ marginTop: '20px', backgroundColor: 'green', borderRadius: '50%', padding: '16px', marginRight: '0px', marginLeft: 'auto' }} onClick={this.changeCheck}>
-                <img
-                src="/cross.png"
-                alt="PanelFlex.com"
-                width={35}
-                height={35}
-                />
-                </div>
-                </div>
-                </div>:
-                // <button style={{position: 'fixed', bottom: '10px', right: '20px', }} onClick={this.changeCheck}>Open Chat</button>
-                <div style={{position: 'fixed', bottom: '10px', right: '20px', backgroundColor: 'green', borderRadius: '50%', padding: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center'}} onClick={this.changeCheck}>
-                <img
-                src="/chat-icon.png"
-                alt="PanelFlex.com"
-                width={55}
-                height={55}
-                />
-                </div>
-                }
+               
                 <Footer/>
             </div>
         )
