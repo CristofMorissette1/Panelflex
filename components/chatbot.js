@@ -1,6 +1,7 @@
 import React from 'react';
 import ChatBot from 'react-simple-chatbot';
 import axios from 'axios';
+
 class Chatbot extends React.Component{
   constructor(props) {
     super(props);
@@ -37,6 +38,7 @@ class Chatbot extends React.Component{
       }
     }
     const sendMail = async () => {
+      console.log("Ander name", this.state)
       var name = this.state.name;
       var email = this.state.email;
       var company = this.state.company;

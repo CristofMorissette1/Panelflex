@@ -85,7 +85,7 @@ class Home extends Component {
         <div style={{ marginTop: '20px', backgroundColor: 'green', borderRadius: '50%', padding: '16px', marginRight: '0px', marginLeft: 'auto' }} onClick={this.changeCheck}>
         <img
         src="/cross.png"
-        alt="PanelFlex.com"
+        alt="Chat"
         width={35}
         height={35}
         />
@@ -96,7 +96,7 @@ class Home extends Component {
         <div style={{position: 'fixed', bottom: '10px', right: '20px', backgroundColor: 'green', borderRadius: '50%', padding: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center'}} onClick={this.changeCheck}>
           <img
         src="/chat-icon.png"
-        alt="PanelFlex.com"
+        alt="Chat"
         width={55}
         height={55}
         />
