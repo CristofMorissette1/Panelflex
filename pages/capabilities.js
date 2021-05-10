@@ -3,7 +3,6 @@ import { Component } from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Chatbot from '../components/chatbot';
-import Chatbot from '../components/chatbot';
 
 
 class Capabilities extends Component {
