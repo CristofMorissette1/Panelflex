@@ -29,11 +29,9 @@ class Chatbot extends React.Component{
     function ValidateEmail(inputText){
       var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
       if(inputText.match(mailformat)){
-        alert("Valid email address!");
         // this.setEmail(input.value)
         return 7;
       }else{
-        alert("You have entered an invalid email address!");
         return 6;
       }
     }
