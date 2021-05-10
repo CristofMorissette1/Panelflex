@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 class Header extends Component {
-    constructor(){
-        super()
+    constructor(prop){
+        super(prop)
         this.state={
             showServicesMenu: false,
             home: true,
@@ -10,7 +10,8 @@ class Header extends Component {
             discover: false,
             capabilities: false,
             csa: false,
-            contact: false
+            contact: false,
+            col: false,
         }
         this.showServicesMenu = this.showServicesMenu.bind(this);
         this.changeColour = this.changeColour.bind(this);
@@ -62,17 +63,38 @@ class Header extends Component {
         console.log(this.state)
     }
     
+    changeCol = (prop) => {
+        this.state.col?this.setState({col: prop}):this.setState({col: prop})
+        }
+
+    componentDidMount(){
+        // var rout = useRouter();
+        if(location.pathname=='/capabilities'){this.changeCol('capabilities');this.forceUpdate()}
+        else if(location.pathname=='/discoverpfx'){this.changeCol('discoverpfx');this.forceUpdate()}
+        else if(location.pathname=='/csa'){this.changeCol('csa');this.forceUpdate()}
+        else if(location.pathname=='/contact'){this.changeCol('contact');this.forceUpdate()}
+        else if(location.pathname=='/'){this.changeCol('home');this.forceUpdate()}
+        else {this.changeCol('product');this.forceUpdate()}
+        
+    }
+    componentDidUnmount(){
+        // var rout = useRouter();
+        this.changeCol('')
+
+    }
+    
     render(){
+        console.log(this.state.col)
         return (
             <div className="Header">
                 <div className="mainHeader">
                     <a href="/"><img className="logo" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/Header%2FPanelflex.jpg?alt=media&token=e3229ecb-67d3-4a00-952e-10caa1e86196"/></a>
                     <div className="link_container">
                         <div className="linkContainerSmall">
-                            <a className="links" href="/"><p className="mainHeaderLinkText" >Home</p></a>
+                            <a className="links" href="/"><p className="mainHeaderLinkText" style={this.state.col=='home'?{color: '#E80700'}: {}} >Home</p></a>
                         </div>
                         <div className="linkContainerSmall">
-                            <a className="links" href="/products" onClick={this.showServicesMenu}><p className="mainHeaderLinkText" onClick={this.productColour}>Products<b>↓</b></p></a>
+                            <a className="links" href="/products" onClick={this.showServicesMenu}><p className="mainHeaderLinkText" style={this.state.col=='product'?{color: '#E80700'}: {}} onClick={this.productColour}>Products<b>↓</b></p></a>
                             {
                                 this.state.showServicesMenu ?
                                 (
@@ -99,16 +121,16 @@ class Header extends Component {
                             }
                         </div>
                         <div className="linkContainerSmall">
-                            <a className="links" href="/discoverpfx"><p className="mainHeaderLinkText">Discover PFX</p></a>
+                            <a className="links" href="/discoverpfx"><p className="mainHeaderLinkText" style={this.state.col=='discoverpfx'?{color: '#E80700'}: {}}>Discover PFX</p></a>
                         </div>
                         <div className="linkContainerSmall">
-                            <a className="links" href="/capabilities"><p className="mainHeaderLinkText">Capabilities</p></a>
+                            <a className="links" href="/capabilities"><p className="mainHeaderLinkText" style={this.state.col=='capabilities'?{color: '#E80700'}: {}}>Capabilities</p></a>
                         </div>
                         <div className="linkContainerSmall">
-                            <a className="links" href="/csa"><p className="mainHeaderLinkText">CSA</p></a>
+                            <a className="links" href="/csa"><p className="mainHeaderLinkText" style={this.state.col=='csa'?{color: '#E80700'}: {}}>CSA</p></a>
                         </div>
                         <div className="linkContainerSmall">
-                            <a className="links" href="/contact"><p className="mainHeaderLinkText">Contact</p></a>
+                            <a className="links" href="/contact"><p className="mainHeaderLinkText" style={this.state.col=='contact'?{color: '#E80700'}: {}}>Contact</p></a>
                         </div>
                     </div>
                 </div>

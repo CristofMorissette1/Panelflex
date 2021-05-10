@@ -3,6 +3,7 @@ import { Component } from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Chatbot from '../components/chatbot';
+import {useRouter} from 'next/router';
 
 
 class Capabilities extends Component {
@@ -10,11 +11,15 @@ class Capabilities extends Component {
         super(props);
         this.state = {
           check: false,
+          col: false,
         };
       }
     
     changeCheck = () => {
     this.state.check?this.setState({check: false}):this.setState({check: true})
+    }
+    changeCol = (prop) => {
+    this.state.col?this.setState({col: prop}):this.setState({col: prop})
     }
     
     render() {
