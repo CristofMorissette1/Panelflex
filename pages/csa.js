@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { Component } from 'react';
 import Header from '../components/header';
 import Chatbot from '../components/chatbot';
+import Footer from '../components/footer';
 
 
 
@@ -21,6 +22,8 @@ class Csa extends Component {
         return (
             <div className="csaMainContainer">
             <Header/>
+            <div className="csaHeaderContainer">  
+            </div>
             <div className="csaContainer">
                 <h1 className="csaTitle">CSA</h1>
                 <p className="csaText">We offer a diverse line of CSA general purpose or Class I Div 2 approved custom electrical control panels built to your specific applications. Panelflex is certified by the Canadian Standards Association to manufacture industrial control panels to CSA C22.1#14 and UL 508. Panels are certified for use in Canada and the United States.</p>
@@ -56,6 +59,7 @@ class Csa extends Component {
             />
             </div>
             }
+            <Footer/>
             </div>
         )
     }
