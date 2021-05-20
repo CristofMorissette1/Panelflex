@@ -63,3 +63,17 @@
     position: relative;
     margin-left: 5%;
 }
+
+.pclPic3 {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 50%;
+    width: 10%;
+}
+
+.pclPic4 {
+    position: absolute;
+    margin-left: 5%;
+    width: 10%;
+    top: 45%;
+}

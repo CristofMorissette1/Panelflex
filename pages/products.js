@@ -24,11 +24,11 @@ this.state.check?this.setState({check: false}):this.setState({check: true})
               <h1 className="pfxMainTitle">Products & Services</h1>
             </div>
             <div className="product2ndContainer">
-          <p className="productsMainText">PanelFlex offers a wide range of high-end affordable electrical panels. Their durability and advanced fastener systems allow for long lasting aesthetically pleasing finishes which makes them ideal for both commercial and residential projects.</p>   
+          <p className="productsMainText">Panelflex offers a wide range of high-end affordable electrical panels. Their durability and advanced fastener systems allow for long lasting aesthetically pleasing finishes which make them ideal for both commercial and residential projects.</p>   
           <a href="/pclpanels" className="individualProductsLink"><div className="individualProducts">
             <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fpcl%20panels%20image1.jpg?alt=media&token=6c6eead1-ccd8-4bef-8fe4-4078d1a2a4e7"></img>
             <div className="individualProductsDescription">
-              <h3 className="individualProductsTitle">PCL Panels</h3>
+              <h3 className="individualProductsTitle">PLC Panels</h3>
               <p className="individualProductsText">Panelflex builds a variety of PLC panels for refrigeration, compression, plant facilities, waste water and many other applications.</p>
             </div>
           </div></a>
@@ -75,7 +75,7 @@ this.state.check?this.setState({check: false}):this.setState({check: true})
             </div>
           </div></a>
           <a href="/staging" className="individualProductsLink"><div className="individualProducts">
-            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fstaging1.jpg?alt=media&token=688a70f6-bb16-4bf9-b20b-44a3387f5a6f"></img>
+            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fprotectionpic.jpg?alt=media&token=edfa3570-c034-4fad-a48f-66de8b7144d1"></img>
             <div className="individualProductsDescription">
               <h3 className="individualProductsTitle">Staging</h3>
               <p className="individualProductsText">Panelflex supports clients' requirement to point to point, power up or program test their panels before shipping, and is eager in providing them the most pleasant testing experience. Customers are welcome to drop by any time during regular business hours to follow up on their projects.</p>

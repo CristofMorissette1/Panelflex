@@ -21,7 +21,7 @@ class PclPanels extends Component {
             <div className="pclPanelsMainContainer">
                 <Header/>
                 <div className="pclHeaderContainer">
-                    <h1 className="pclMainTitle">PCL Panels</h1>
+                    <h1 className="pclMainTitle">PLC Panels</h1>
                 </div>
                 <hr className="border1"/>
                 <div className="pclBodyContainer">
@@ -32,6 +32,7 @@ class PclPanels extends Component {
                     <h2 className="pclTitleSmall">I/O Wiring</h2>
                     <p className="pclIntroText">All PLC I/O points are wired at our shop to terminal blocks for use in terminating customer-supplied pilot devices or wiring from field devices. All wiring internal to the panel is factory-tested for continuity prior to shipment.</p>
                     <h2 className="pclTitleSmall">Specific Components Used</h2>
+                    <img className="pclPic3" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FPLC%20.JPG?alt=media&token=026eace9-e09e-487c-8c56-529e22dca3b9"/>
                     <ul className="pclList">
                         <li className="pclListItem">Enclosures - EEMAC 3, 3R, 4, 4X</li>
                         <li className="pclListItem">Auxiliary 24VDC Power Supplies</li>
@@ -48,7 +49,7 @@ class PclPanels extends Component {
                         <li className="pclListItem">Ethernet Switch</li>
                     </ul>
                 </div>
-
+                <img className="pclPic4" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FPLC%20image.JPG?alt=media&token=7ab7345b-e0b0-4c9a-b16f-4ad3cc36f045"/>
                 {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
         {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>

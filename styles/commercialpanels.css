@@ -13,9 +13,5 @@
 .commercialPic1 {
     position: absolute;
     left: 5%;
-}
-
-.commercialPic2 {
-    position: absolute;
-    margin-left: 35%;
+    width: 10%;
 }

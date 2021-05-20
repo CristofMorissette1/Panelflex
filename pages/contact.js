@@ -60,40 +60,40 @@ class Contact extends Component {
                 <div className="sideBarWebsite">
                   <h2 className="contactName">Son Nguyen</h2>
                   <p className="contactText">Director</p>
-                  <p className="contactText">Cell: (403) 874-3978</p>
+                  <p className="contactText">Phone: (403) 874-3978</p>
                   <p className="contactText">son.nguyen@panelflex.ca</p>
                 </div>
                 <div className="sideBarWebsite">
                   <h2 className="contactName">Adham Jaber</h2>
                   <a className="contactText">Manager, Business Development</a>
-                  <p className="contactText">Cell: (403) 481-1459</p>
+                  <p className="contactText">Phone: (403) 481-1459</p>
                   <p className="contactText">adham.jaber@panelflex.ca</p>
                 </div>
                 <div className="sideBarWebsite">
                   <h2 className="contactName">Tilak Dahanayake</h2>
                   <p className="contactText">Manager, Integration Technology</p>
-                  <p className="contactText">Cell: (403) 279-8270</p>
+                  <p className="contactText">Phone: (403) 279-8270</p>
                   <p className="contactText">tilak.dahanayake@panelflex.ca</p>
                 </div>
                 <h1 className="contactSideBarTitle">Project Managers</h1>
                 <div className="sideBarWebsite">
                   <h2 className="contactName">Thinh (Tin) Bao</h2>
-                  <p className="contactText">Cell: (403) 279-8273</p>
+                  <p className="contactText">Phone: (403) 279-8273</p>
                   <p className="contactText">thinh.bao@panelflex.ca</p>
                 </div>
                 <div className="sideBarWebsite">
                   <h2 className="contactName">Sheena Gibson</h2>
-                  <p className="contactText">Cell: (403) 279-8205</p>
+                  <p className="contactText">Phone: (403) 279-8205</p>
                   <p className="contactText">sheena.gibson@panelflex.ca</p>
                 </div>
                 <div className="sideBarWebsite">
                   <h2 className="contactName">Vineeth Kumar, P.Eng</h2>
-                  <p className="contactText">Cell: (403) 475-9400</p>
+                  <p className="contactText">Phone: (403) 475-9400</p>
                   <p className="contactText">vineeth.kumar@panelflex.ca</p>
                 </div>
                 <div className="sideBarWebsite">
                   <h2 className="contactName">Conor Murphy</h2>
-                  <p className="contactText">Cell: (403) 475-9402</p>
+                  <p className="contactText">Phone: (403) 475-9402</p>
                   <p className="contactText">conor.murphy@panelflex.ca</p>
                 </div>
               </div>

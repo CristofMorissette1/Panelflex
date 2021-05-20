@@ -101,7 +101,7 @@ class Header extends Component {
                                     <div className="navMenuProducts">
                                         <div className="navMenuLinks">
                                             <a className="navLinks" href="/products">Products</a>
-                                            <a className="navLinks" href="/pclpanels">PCL Panels</a>
+                                            <a className="navLinks" href="/pclpanels">PLC Panels</a>
                                             <a className="navLinks" href="/scadapanels">Scada/RTU Panels</a>
                                             <a className="navLinks" href="/marshallingpanels">DCS Marshalling Panels</a>
                                             <a className="navLinks" href="/commercialpanels">Commercial/Municipal Control Panels</a>

@@ -53,6 +53,7 @@ class TelecommunicationPanels extends Component {
                 />
                 </div>
                 }
+                <img className="instrumentPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FInstrumentation.jpg?alt=media&token=b8bc0833-ea18-479c-bec6-d8089e258f09"/>
                 <Footer/>
             </div>
         )

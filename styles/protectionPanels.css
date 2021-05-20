@@ -1,5 +1,12 @@
 .protectionPic {
     position: absolute;
     margin-left: 35%;
-    width: 15%;
+    width: 8%;
+}
+
+.protectionPic2 {
+    position: absolute;
+    width: 8%;
+    top: 46%;
+    margin-left: 5%;
 }

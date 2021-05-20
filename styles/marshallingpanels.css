@@ -14,5 +14,12 @@
     position: absolute;
     margin-left: 35%;
     margin-top: 2%;
-    width: 8%;
+    width: 10%;
+}
+
+.marshallingPic2 {
+    position: absolute;
+    width: 10%;
+    top: 51%;
+    margin-left: 5%;
 }

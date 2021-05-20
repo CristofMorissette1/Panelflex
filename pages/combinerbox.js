@@ -35,7 +35,6 @@ class Combinerbox extends Component {
                         <li className="pclListItem">NEMA 3R, 4 & 4X enclosures</li>
                     </ul>
                     <h2 className="pclTitleSmall">Some Available Options:</h2>
-                    <img className="pvPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fpv%20pic2.jpg?alt=media&token=b4d31b1a-5aa0-4e58-ae90-1203eb51cee4"/>
                     <ul className="pclList">
                         <li className="pclListItem">Pre-terminated input conductors</li>
                         <li className="pclListItem">Transient surge suppression</li>

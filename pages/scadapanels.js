@@ -22,7 +22,7 @@ class ScadaPanels extends Component {
             <div className="pclPanelsMainContainer">
                 <Header/>
                 <div className="scadaHeaderContainer">
-                    <h1 className="pclMainTitle">Scada Panels</h1>
+                    <h1 className="pclMainTitle">Scada/RTU Panels</h1>
                 </div>
                 <hr className="border1"/>
                 <div className="pclBodyContainer">
@@ -63,6 +63,7 @@ class ScadaPanels extends Component {
                 />
                 </div>
                 }
+                <img className="scadaPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FRTU.JPG?alt=media&token=5d465595-c142-4f53-8137-1ad2e16378c3"/>
                 <Footer/>
             </div>
         )
