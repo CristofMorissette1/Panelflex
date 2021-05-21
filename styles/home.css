@@ -29,7 +29,8 @@
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,.6)), url("https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/home%2FHome%20pic%202.jpg?alt=media&token=bd22639b-1e91-4225-901c-fb2faf1c58b2");
-    height: 120vh;
+    height: 100vh;
+    background-size: cover;
 }
 
 .homeHeaderButtons {
