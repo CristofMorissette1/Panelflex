@@ -54,7 +54,9 @@ class Contact extends Component {
     return (
       <div className="ContactMainContainer">
         <Header/>
-        <img className="contactImage" src="https://firebasestorage.googleapis.com/v0/b/jays-metal-products.appspot.com/o/Home%2Fcontact%20image.jpg?alt=media&token=8e7061d9-76b8-44e7-a97c-83dce3edb951"></img>
+        <div className="contactHeaderContainer">
+          <h1 className="homeMainTitle">Custom built to exact specifications</h1>
+        </div>
             <div className="contactPageContainer">
               <div className="contactPageSideMenu">
                 <div className="sideBarWebsite">

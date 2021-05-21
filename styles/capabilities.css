@@ -45,3 +45,59 @@
     margin-top: 1%;
     margin-right: 2%;
 }
+
+.capabilitiesPic1 {
+    position: absolute;
+    margin-left: 40%;
+    width: 13%;
+}
+
+.capabilitiesPic2 {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 13%;
+}
+
+.capabilitiesPic3 {
+    position: absolute;
+    width: 13%;
+    left: 5%;
+}
+.capabilitiesPic4 {
+    position: absolute;
+    width: 13%;
+    left: 5%;
+    margin-top: 10%;
+}
+
+.capabilitiesPicContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.capabilitiesPic5 {
+    width: 13%;
+}
+
+.capabilitiesPic6 {
+    width: 13%;
+}
+
+.capabilitiesPic7 {
+    width: 13%;
+}
+
+.capabilitiesPic8 {
+    width: 13%;
+}
+
+.capabilitiesPic9 {
+    width: 13%;
+}
+
+.capabilitiesPic10 {
+    width: 13%;
+}

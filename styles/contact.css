@@ -4,6 +4,16 @@
     height: 100vh;
 }
 
+.contactHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,.6)), url("https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/home%2Fhome%20landing.jpg?alt=media&token=aeeacaaf-f9de-458a-8626-06641dae7d8f");
+    height: 120vh;
+}
+
 .contactPageContainer {
     width: 100%;
     display: flex;

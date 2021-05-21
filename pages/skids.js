@@ -54,6 +54,7 @@ class Combinerbox extends Component {
                 />
                 </div>
                 }
+                <img className="skidPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fskid.png?alt=media&token=ec0a4f0b-0082-4361-8e17-623387415073"/>
                 <Footer/>
             </div>
         )

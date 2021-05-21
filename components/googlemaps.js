@@ -19,7 +19,7 @@ class SimpleMap extends Component {
             text="Location"
           />
         </GoogleMapReact> */}
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2511.5390454879494!2d-113.97836368404182!3d50.987710356387126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717a10e884e391%3A0x9dcbb65b217f9470!2sPanelflex!5e0!3m2!1sen!2sca!4v1620595862278!5m2!1sen!2sca" width="1050" height="450" style={{border: 0, marginLeft: "42.5%", position: "absolute", top: "115%", zIndex: "-1"}} allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2511.5390454879494!2d-113.97836368404182!3d50.987710356387126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717a10e884e391%3A0x9dcbb65b217f9470!2sPanelflex!5e0!3m2!1sen!2sca!4v1620595862278!5m2!1sen!2sca" width="1050" height="450" style={{border: 0, marginLeft: "42.5%", position: "absolute", top: "210%", zIndex: "-1"}} allowfullscreen="" loading="lazy"></iframe>
         </div>
 /* //       <div>
 //           <div className="mapsContainer">
