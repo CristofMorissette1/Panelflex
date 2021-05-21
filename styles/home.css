@@ -40,7 +40,7 @@
 }
 
 .homeFirstButton {
-    background-color: #09aa06;
+    background-color: #D0312D;
     width: 12%;
     padding: 1% 0%;
     display: flex;
@@ -57,7 +57,7 @@
 }
 
 .homeSecondButton {
-    background-color:#09aa06;
+    background-color:#D0312D;
     width: 12%;
     padding: 1% 0%;
     display: flex;
@@ -109,7 +109,7 @@
 }
 
 .homeBodyButton {
-    background-color:#09aa06;
+    background-color:#D0312D;
     color: #fff;
     width: 15%;
     display: flex;
@@ -150,13 +150,13 @@
 }
 
 .homeCapabilitiesContainerTitle {
-    color:#09aa06;
+    color:#e80700;
     font-size: 350%;
     font-weight: 500;
 }
 
 .homeCapabilitiesTitle {
-    color:#09aa06;
+    color:#e80700;
 }
 
 .homeCapabilitiesText {
@@ -176,7 +176,7 @@
 }
 
 .homeCapabilitiesButton {
-    background-color:#09aa06;
+    background-color:#D0312D;
     color: #fff;
     width: 25%;
     display: flex;

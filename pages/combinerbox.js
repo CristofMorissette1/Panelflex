@@ -26,7 +26,7 @@ class Combinerbox extends Component {
                 <hr className="border1"/>
                 <div className="pclBodyContainer">
                     <p className="pclIntroText">CSA approved 1000VDC & 1500VDC Panelflex PV system Combiner Boxes. Combiner Boxes can be customized to fit the solar integrators’ specific needs.</p>
-                    <img className="pvPic" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fpv%20pic.jpg?alt=media&token=497ef395-e994-4c37-bf67-4b6ba9f7c09e"/>
+                    <img className="pvPic" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Ffile%20(1).jpeg?alt=media&token=9d401269-d757-408b-81b4-088ae4ef8579"/>
                     <h2 className="pclTitleSmall">Some Features include:</h2>
                     <ul className="pclList">
                         <li className="pclListItem">CSA approved</li>
@@ -34,6 +34,7 @@ class Combinerbox extends Component {
                         <li className="pclListItem">90C terminals</li>
                         <li className="pclListItem">NEMA 3R, 4 & 4X enclosures</li>
                     </ul>
+                    <img className="pvPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Ffile.jpeg?alt=media&token=dfd8ec52-6209-4292-a54a-f3d4b0a7f890"/>
                     <h2 className="pclTitleSmall">Some Available Options:</h2>
                     <ul className="pclList">
                         <li className="pclListItem">Pre-terminated input conductors</li>

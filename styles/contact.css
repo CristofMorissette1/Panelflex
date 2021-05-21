@@ -30,7 +30,7 @@
 
 .sideBarWebsite {
     width: 50%;
-    background-color:#09aa06;
+    background-color:#D0312D;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,11 +147,11 @@ button {
     width: 14%;
     height: 5vh;
     cursor: pointer;
-    background-color:#09aa06;
+    background-color:#D0312D;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: .2rem solid #09aa06;
+    border: .2rem solid #D0312D;
 }
 
 .contactButtonText {
