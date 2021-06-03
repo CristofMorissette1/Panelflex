@@ -130,7 +130,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,.5)), url("https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/home%2Fhome%20our%20capabilities.jpg?alt=media&token=12bc1439-c57c-45f6-83fa-7fe5a9109dd9");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url("https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/home%2FAdobeStock_280443923.jpeg?alt=media&token=be970824-2a9b-4b0e-932f-59a1e42858c6");
     background-size: cover;
 }
 

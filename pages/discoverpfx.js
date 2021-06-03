@@ -23,11 +23,11 @@ class DiscoverPfx extends Component {
             <div className="pfxMainContainer">
                 <Header/>
                 <div className="discoverHeaderContainer">
-                    <h1 className="pfxMainTitle">Discover PanelFlex</h1>
+                    <h1 className="pfxMainTitle">Discover PANELFLEX</h1>
                 </div>
                 <div className="pfxBodyContainer">
                     <h2 className="pfxTitleSmall">Our Vision</h2>
-                    <p className="pfxText">The Leader at providing custom control panel solutions for industrial and commercial industries serving Mining, Oil and Gas, Manufacturing, Utility, Forestry and Municipality sectors.</p>
+                    <p className="pfxText">To be the Leader at providing custom control panel solutions for industrial and commercial industries serving Mining, Oil and Gas, Manufacturing, Utility, Forestry, Transportation, Renewable Energy, OEM’s, Shipping, Municipality sectors and much more.</p>
                     <h2 className="pfxTitleSmall">Our Values</h2>
                     <div className="pfxBodyContainerSmall">
                         <ul className="pfxList">
@@ -62,6 +62,7 @@ class DiscoverPfx extends Component {
                     </div>
                     <h2 className="pfxTitleSmall">Health & Safety</h2>
                     <p className="pfxText">Health, Safety and Environment (HSE) performance excellence is a top line goal for Panelflex. Our benchmark indicators are reflective of  our business partners expectations, peers, regulations as outlined by provincial and federal governments.<br/><br/>All employees are responsible and are be held accountable to meet and exceed our safety performance targets. Our management team is responsible to maintain a safe work environment, that employees are adequately trained and that our HSE policies and procedures are followed consistently.<br/><br/>Panelflex shares responsibility to work in a manner that will protect valued employees, the public and our environment from harm. We conform with all required governmental HSE regulations to meet minimum acceptable standard of HSE performance. Our commitment is to continuously improve our HSE performance and meet or exceed industry best practices.</p>
+                    <img className="pfxPic1" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FIMG_4849.jpg?alt=media&token=d9d5e272-84a5-4c1c-a534-1efd8bb50c50"/>
                     <h2 className="pfxTitleSmall">Environment</h2>
                     <p className="pfxText">Panelflex understands and appreciates the importance of environmental responsibility in all areas of our business where we can affect the protection of the environment. We are committed to complying with industry guidelines and specific government legislation in all of our daily functions. We will conduct our business in a manner that protects and encourages the health and vitality of the environment.<br/><br/>Our employees shall conduct their actions in a way that identifies risk and mitigates environmental negative impacts. It is the responsibility of all employees and managers to reduce their footprint on the environment by influencing responsible activities.</p>
                     <h2 className="pfxTitleSmall">Quality</h2>

@@ -48,7 +48,7 @@ class Home extends Component {
           <h1 className="homeBodyTitle">What Can We Do For You</h1>
           <div className="homeBodyContainerSmall">
             <h3 className="homeBodyTitleSmall">PANEL DESIGN & FABRICATION</h3>
-            <p className="homeBodyText">The PANELFLEX team will help custom design industrial controls to your specific needs.  We treat projects of every size with the same dedication of excellence in our workmanship.</p>
+            <p className="homeBodyText">The PANELFLEX team will help custom design industrial control panels to your specific needs. Projects of all sizes receive the same top-quality workmanship and dedication.</p>
           </div>
           <div className="homeBodyContainerSmall">
             <h3 className="homeBodyTitleSmall">INSTALLATION & SUPPORT AND CONTROLS SUPPORT/SERVICE</h3>
@@ -56,11 +56,11 @@ class Home extends Component {
           </div>
           <div className="homeBodyContainerSmall">
             <h3 className="homeBodyTitleSmall">OEM BUILDS & PRIVATE LABELING</h3>
-            <p className="homeBodyText">PANELFLEX helps our OEM customers in a variety of industrial fields to reduce their control system costs, improve efficiency and overall quality.</p>
+            <p className="homeBodyText">PANELFLEX helps a variety OEM customers in various industries to reduce their control system costs, improve efficiency and overall quality.</p>
           </div>
           <div className="homeBodyContainerSmall">
             <h3 className="homeBodyTitleSmall">CONTROLS SUPPORT/SERVICE</h3>
-            <p className="homeBodyText">Support for your project is a priority at PANELFLEX. We are confident that any configuration made on our site is verified by our engineers as correct and is electrically sound.</p>
+            <p className="homeBodyText">Support for your project is a priority at PANELFLEX. We work closely with you to insure you will receive the product that best fits your needs and meets CSA standards.</p>
           </div>
           <a className="homeBodyButton" href="/products">View All Products</a>
         </div>
@@ -72,11 +72,9 @@ class Home extends Component {
           </div>
           <div className="homeCapabilitiesContainer3">
             <h2 className="homeCapabilitiesTitle">BUILD-TO-PRINT OR CUSTOM BUILDS</h2>
-            <p className="homeCapabilitiesTextSmall">Our capabilities cover a broad range of industries and applications, and we are UL Listed as well as certified for hazardous locations. We have the experience and capacity to produce the highest quality project with the engineering expertise and customer service you deserve.</p>
+            <p className="homeCapabilitiesTextSmall">Our capabilities cover a broad range of industries and applications, and we are CSA Listed, and are also able to get certification for hazardous locations. We have the experience and capacity to produce the highest quality project with the design expertise and customer service you deserve.</p>
             <h2 className="homeCapabilitiesTitle">COMPLETE TURNKEY SOLUTIONS</h2>
-            <p className="homeCapabilitiesTextSmall">Having extensive capabilities allows PanelShop.com to take on a wide variety of custom projects of all sizes. Whatever your needs, PanelShop.com has the ability to make your project a success.</p>
-            <h2 className="homeCapabilitiesTitle">CUSTOM PROGRAMMING</h2>
-            <p className="homeCapabilitiesTextSmall">PANELFLEX will custom build far beyond the configurator selections to satisfy all customer needs—large and small.</p>
+            <p className="homeCapabilitiesTextSmall">Having extensive experience and capabilities allows PANELFEX to take on a wide variety of custom projects of all sizes. Whatever your needs, PANELFLEX has the ability to make your project a success.</p>
           </div>
         </div>
         {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />

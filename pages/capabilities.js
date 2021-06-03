@@ -47,6 +47,7 @@ class Capabilities extends Component {
                         <li className="listItem">Solar Pump Packaging</li>
                         <li className="listItem">HVAC Control Panels</li>
                         <li className="listItem">Custom Control</li>
+                        <li className="listItem">Protection Panels</li>
                         <li className="listItem">Marshalling Panels</li>
                         <li className="listItem">Oil Well Controllers</li>
                         <li className="listItem">VFD Control Panels</li>
@@ -54,13 +55,16 @@ class Capabilities extends Component {
                         <li className="listItem">Booster Pump Panels</li>
                         <li className="listItem">Waste Water Control Panels</li>
                         <li className="listItem">Compressor Panels</li>
+                        <li className="listItem">Electrical Skids & Buildings</li>
                         <li className="listItem">Staging</li>
                     </ul>
                     <p className="capabilitiesText">Panelflex's manufacturing capabilities are the key to the implementation of any automation solution. Integral to this skill-set is the complete integration of design assistance, project management, procurement, fabrication, quality control and testing of automation solutions. Panelflex can assist in providing complete systems integration support for a broad array of industries.</p>
                     <p className="capabilitiesTitleSmall">Panelflex is proud to serve the following markets:</p>
                     <ul className="capabilitiesList">
                         <li className="listItem">Oil & Gas producers</li>
-                        <li className="listItem">Equipment Fabricators</li>
+                        <li className="listItem">Renewable Energy</li>
+                        <li className="listItem">Transportation</li>
+                        <li className="listItem">Original Equipment Fabricators</li>
                         <li className="listItem">Mining</li>
                         <li className="listItem">Drilling Contractors</li>
                         <li className="listItem">Municipalities</li>
@@ -68,6 +72,10 @@ class Capabilities extends Component {
                         <li className="listItem">EPC's</li>
                         <li className="listItem">Utilities</li>
                         <li className="listItem">Forestry</li>
+                        <li className="listItem">Shipping</li>
+                        <li className="listItem">Science and Technology</li>
+                        <li className="listItem">Pipeline</li>
+                        <li className="listItem">Petro-Chemical</li>
                     </ul>
                     <div className="capabilitiesPicContainer">
                     <img className="capabilitiesPic5" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/production%20capabilities%2FShipping.jpg?alt=media&token=b0cc1f31-424b-4476-bd46-032aee4ccfb9"/>
