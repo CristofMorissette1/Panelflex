@@ -25,18 +25,18 @@ class Combinerbox extends Component {
                 </div>
                 <hr className="border1"/>
                 <div className="pclBodyContainer">
-                    <p className="pclIntroText">CSA approved 1000VDC & 1500VDC Panelflex PV system Combiner Boxes. Combiner Boxes can be customized to fit the solar integrators’ specific needs.</p>
+                    <p className="pclIntroText"><b>CSA approved 1000VDC & 1500VDC Panelflex PV system Combiner Boxes. Combiner Boxes can be customized to fit the solar integrators’ specific needs.</b></p>
                     <img className="pvPic" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Ffile%20(1).jpeg?alt=media&token=9d401269-d757-408b-81b4-088ae4ef8579"/>
                     <h2 className="pclTitleSmall">Some Features include:</h2>
-                    <ul className="pclList">
+                    <ul className="pclList"><b>
                         <li className="pclListItem">CSA approved</li>
                         <li className="pclListItem">Up to 36 input circuits</li>
                         <li className="pclListItem">90C terminals</li>
                         <li className="pclListItem">NEMA 3R, 4 & 4X enclosures</li>
-                    </ul>
+                    </b></ul>
                     <img className="pvPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Ffile.jpeg?alt=media&token=dfd8ec52-6209-4292-a54a-f3d4b0a7f890"/>
                     <h2 className="pclTitleSmall">Some Available Options:</h2>
-                    <ul className="pclList">
+                    <ul className="pclList"><b>
                         <li className="pclListItem">Pre-terminated input conductors</li>
                         <li className="pclListItem">Transient surge suppression</li>
                         <li className="pclListItem">Breather and drain vents</li>
@@ -44,7 +44,7 @@ class Combinerbox extends Component {
                         <li className="pclListItem">Provisions for compression lugs</li>
                         <li className="pclListItem">Floating / Bi-polar configuration</li>
                         <li className="pclListItem">Input cable whip assemblies</li>
-                    </ul>
+                    </b></ul>
                 </div>
                 {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
                 {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}

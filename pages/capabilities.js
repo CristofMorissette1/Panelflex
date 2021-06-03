@@ -58,7 +58,7 @@ class Capabilities extends Component {
                         <li className="listItem">Electrical Skids & Buildings</li>
                         <li className="listItem">Staging</li>
                     </ul>
-                    <p className="capabilitiesText">Panelflex's manufacturing capabilities are the key to the implementation of any automation solution. Integral to this skill-set is the complete integration of design assistance, project management, procurement, fabrication, quality control and testing of automation solutions. Panelflex can assist in providing complete systems integration support for a broad array of industries.</p>
+                    <p className="capabilitiesText"><b>Panelflex's manufacturing capabilities are the key to the implementation of any automation solution. Integral to this skill-set is the complete integration of design assistance, project management, procurement, fabrication, quality control and testing of automation solutions. Panelflex can assist in providing complete systems integration support for a broad array of industries.</b></p>
                     <p className="capabilitiesTitleSmall">Panelflex is proud to serve the following markets:</p>
                     <ul className="capabilitiesList">
                         <li className="listItem">Oil & Gas producers</li>

@@ -33,7 +33,7 @@ this.state.check?this.setState({check: false}):this.setState({check: true})
             </div>
           </div></a>
           <a href="/scadapanels" className="individualProductsLink"><div className="individualProducts">
-            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FDSCF5597.JPG?alt=media&token=9539d38e-a45d-42f8-8bb3-23282d45af41"></img>
+            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FDSCF5597.JPG?alt=media&token=80efd115-ba02-4312-8221-384d50ae0f41"></img>
             <div className="individualProductsDescription">
               <h3 className="individualProductsTitle">Scada/RTU Panels</h3>
               <p className="individualProductsText">Whether the communication medium is HMI or device selections, Panelflex’s SCADA experience will provide the best value and fit for your application.</p>

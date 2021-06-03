@@ -25,15 +25,15 @@ class PclPanels extends Component {
                 </div>
                 <hr className="border1"/>
                 <div className="pclBodyContainer">
-                    <p className="pclIntroText">Panelflex builds a variety of PLC panels for refrigeration, compression, plant facilities, waste water and many other applications.</p>
-                    <h2 className="pclTitleSmall">Cabinet and Construction</h2>
+                    <p className="pclIntroText"><b>Panelflex builds a variety of PLC panels for refrigeration, compression, plant facilities, waste water and many other applications.</b></p>
+                    <h2 className="pclTitleSmall">Cabinet and Construction:</h2>
                     <img className="pclPic1" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fpcl%20pic.png?alt=media&token=40ed411b-741d-494c-a00f-071caf744036"/>
-                    <p className="pclIntroText">All PLC panels are fabricated in standard NEMA 12/4/4X enclosures assembled by experienced technicians. Panel assemblies are CSA General Purpose or CSA Class I Div 2 certified. cUL is available as an option (where applicable).</p>
-                    <h2 className="pclTitleSmall">I/O Wiring</h2>
-                    <p className="pclIntroText">All PLC I/O points are wired at our shop to terminal blocks for use in terminating customer-supplied pilot devices or wiring from field devices. All wiring internal to the panel is factory-tested for continuity prior to shipment.</p>
-                    <h2 className="pclTitleSmall">Specific Components Used</h2>
+                    <p className="pclIntroText"><b>All PLC panels are fabricated in standard NEMA 12/4/4X enclosures assembled by experienced technicians. Panel assemblies are CSA General Purpose or CSA Class I Div 2 certified. cUL is available as an option (where applicable).</b></p>
+                    <h2 className="pclTitleSmall">I/O Wiring:</h2>
+                    <p className="pclIntroText"><b>All PLC I/O points are wired at our shop to terminal blocks for use in terminating customer-supplied pilot devices or wiring from field devices. All wiring internal to the panel is factory-tested for continuity prior to shipment.</b></p>
+                    <h2 className="pclTitleSmall">Specific Components Used:</h2>
                     <img className="pclPic3" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FPLC%20.JPG?alt=media&token=026eace9-e09e-487c-8c56-529e22dca3b9"/>
-                    <ul className="pclList">
+                    <ul className="pclList"><b>
                         <li className="pclListItem">Enclosures - EEMAC 3, 3R, 4, 4X</li>
                         <li className="pclListItem">Auxiliary 24VDC Power Supplies</li>
                         <li className="pclListItem">Circuit Breakers</li>
@@ -47,7 +47,7 @@ class PclPanels extends Component {
                         <li className="pclListItem">Light Package</li>
                         <li className="pclListItem">Universal Power Supply (UPS)</li>
                         <li className="pclListItem">Ethernet Switch</li>
-                    </ul>
+                    </b></ul>
                 </div>
                 <img className="pclPic4" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FPLC%20image.JPG?alt=media&token=7ab7345b-e0b0-4c9a-b16f-4ad3cc36f045"/>
                 {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />

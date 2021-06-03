@@ -27,7 +27,7 @@ class TelecommunicationPanels extends Component {
                 </div>
                 <hr className="border1"/>
                 <div className="pclBodyContainer">
-                    <p className="pclIntroText">Panelflex wide services are not limited to custom control panel assembly. We offer a wide range of manufacturing custom instrumentation transmitter racks and telecommunication / network panels.</p>
+                    <p className="pclIntroText"><b>Panelflex wide services are not limited to custom control panel assembly. We offer a wide range of manufacturing custom instrumentation transmitter racks and telecommunication / network panels.</b></p>
                     <img className="instrumentPic" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Finstrument%20pic1.jpg?alt=media&token=a0344acd-4c5d-4955-8435-e1a30be5265b"/>
                 </div>
                 {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
