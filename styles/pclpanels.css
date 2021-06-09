@@ -49,7 +49,7 @@
 }
 
 .pclList {
-    font-size: 115%;
+    font-size: 100%;
     font-weight: 400;
     color:#494949;
 }
@@ -70,13 +70,13 @@
 .pclPic3 {
     position: absolute;
     margin-left: 35%;
-    margin-top: 50%;
-    width: 10%;
+    margin-top: 30%;
+    width: 16%;
 }
 
 .pclPic4 {
     position: absolute;
     margin-left: 5%;
-    width: 10%;
+    width: 20%;
     top: 45%;
 }
