@@ -37,7 +37,7 @@
 
 .pclIntroText {
     width: 40%;
-    font-size: 115%;
+    font-size: 100%;
     font-weight: 400;
     color:#494949;
 }
@@ -58,11 +58,13 @@
     position: absolute;
     margin-left: 35%;
     margin-top: 10%;
+    width: 20%;
 }
 
 .pclPic2 {
     position: relative;
     margin-left: 5%;
+    width: 20%;
 }
 
 .pclPic3 {
