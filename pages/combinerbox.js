@@ -37,7 +37,7 @@ class Combinerbox extends Component {
                     <img className="pvPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Ffile.jpeg?alt=media&token=dfd8ec52-6209-4292-a54a-f3d4b0a7f890"/>
                     <h2 className="pclTitleSmall">Some Available Options:</h2>
                     <ul className="pclList"><b>
-                        <li className="pclListItem">Pre-terminated input conductors</li>
+                        <li className="pclListItem">250A to 500A disconnect</li>
                         <li className="pclListItem">Transient surge suppression</li>
                         <li className="pclListItem">Breather and drain vents</li>
                         <li className="pclListItem">Padlockable enclosures</li>

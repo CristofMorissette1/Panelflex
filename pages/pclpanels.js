@@ -45,7 +45,7 @@ class PclPanels extends Component {
                         <li className="pclListItem">Wireway</li>
                         <li className="pclListItem">Relay</li>
                         <li className="pclListItem">Light Package</li>
-                        <li className="pclListItem">Universal Power Supply (UPS)</li>
+                        <li className="pclListItem">Uninterruptible Power Supply (UPS)</li>
                         <li className="pclListItem">Ethernet Switch</li>
                     </b></ul>
                 </div>

@@ -6,7 +6,7 @@ import Chatbot from '../components/chatbot';
 
 
 
-class Combinerbox extends Component {
+class Kiosks extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -23,16 +23,16 @@ class Combinerbox extends Component {
             <div className="pclPanelsMainContainer">
                 <Header/>
                 <div className="commercialHeaderContainer">
-                    <h1 className="pclMainTitle">Protection Panels</h1>
+                    <h1 className="pclMainTitle">Kiosks</h1>
                 </div>
                 <hr className="border1"/>
                 <div className="pclBodyContainer">
-                    <img className="protectionPic" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fcommercial%20pic.jpg?alt=media&token=d5def943-27ba-4206-9c82-b6e931b1c5f9"/>
-                    <p className="pclIntroText"><b>We provide Substation Protection Panel construction services for Utilities and Industrial Facilities.</b></p>
+                    {/* <img className="protectionPic" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fcommercial%20pic.jpg?alt=media&token=d5def943-27ba-4206-9c82-b6e931b1c5f9"/> */}
+                    <p className="skidsIntroText"><b>We will build Kiosks to your needs.</b></p>
                     <h2 className="pclTitleSmall">Some more information:</h2>
-                    <p className="pclIntroText"><b>Each Protection Panel will be constructed utilizing equipment and specifications required by customer for their specific application.</b></p>
+                    <p className="skidsIntroText"><b>Each Kiosk is custom built and assembled to your exact specifications.</b></p>
                 </div>
-                <img className="protectionPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fcommercial%20pic2.jpg?alt=media&token=b666a372-76dc-432f-8be3-eefe6d659e31"/>
+                {/* <img className="protectionPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fcommercial%20pic2.jpg?alt=media&token=b666a372-76dc-432f-8be3-eefe6d659e31"/> */}
                 {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
                 {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
@@ -62,4 +62,4 @@ class Combinerbox extends Component {
     }
 }
 
-export default Combinerbox;
+export default Kiosks;

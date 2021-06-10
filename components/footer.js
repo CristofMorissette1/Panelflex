@@ -21,7 +21,7 @@ class Footer extends Component {
               <hr className="footerContainerTitleBorder"/>
               <a className="footerContainerInfo" href="/"><b>Home →</b></a>
               <a className="footerContainerInfo" href="/products"><b>Products → </b></a>
-              <a className="footerContainerInfo" href="/amc"><b>Discover PFX → </b></a>
+              <a className="footerContainerInfo" href="/discoverpfx"><b>Discover PFX → </b></a>
               <a className="footerContainerInfo" href="/contact"><b>Contact →</b></a>
           </div>
           <div className="footerIcons">

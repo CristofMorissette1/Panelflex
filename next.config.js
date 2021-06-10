@@ -19,7 +19,8 @@ module.exports = {
         '/discoverpfx' : { page: '/discoverpfx'},
         '/combinerbox' : { page: '/combinerbox'},
         '/skids' : { page: '/skids'},
-        '/protectionpanel' : { page: '/protectionpanel'}
+        '/protectionpanel' : { page: '/protectionpanel'},
+        '/kiosks' : { page: '/kiosks'}
       }
     }
   };

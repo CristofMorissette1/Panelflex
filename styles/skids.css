@@ -1,12 +1,22 @@
 .skidsPic {
     position: absolute;
     margin-left: 35%;
-    width: 13%;
+    width: 15%;
+    top: 43%;
 }
 
 .skidPic2 {
     position: absolute;
-    width: 16%;
-    top: 49%;
+    width: 17%;
+    top: 43%;
     margin-left: 2%;
+}
+
+.skidsIntroText {
+    width: 40%;
+    font-size: 100%;
+    font-weight: 400;
+    color:#494949;
+    display: flex;
+    justify-content: center;
 }

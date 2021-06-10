@@ -92,14 +92,21 @@ this.state.check?this.setState({check: false}):this.setState({check: true})
             <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fprotection%20panel.jpg?alt=media&token=082f2125-f79f-471f-83c8-7cb7c61780ac"></img>
             <div className="individualProductsDescription">
               <h3 className="individualProductsTitle">Protection Panels</h3>
-              <p className="individualProductsText">CSA approved 1000VDC & 1500VDC Panelflex PV system Combiner Boxes. Combiner Boxes can be customized to fit the solar integrators’ specific needs.</p>
+              <p className="individualProductsText">Custom utility and facility substation protection panels constructed to customer specification.</p>
             </div>
           </div></a>
           <a href="/skids" className="individualProductsLink"><div className="individualProducts">
             <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fskids.JPG?alt=media&token=cc105174-8335-4c2e-b75d-fda19601eeef"></img>
             <div className="individualProductsDescription">
               <h3 className="individualProductsTitle">Building & Skids</h3>
-              <p className="individualProductsText">CSA approved 1000VDC & 1500VDC Panelflex PV system Combiner Boxes. Combiner Boxes can be customized to fit the solar integrators’ specific needs.</p>
+              <p className="individualProductsText">Custom Electrical and Control buildings constructed per customer requirements.</p>
+            </div>
+          </div></a>
+          <a href="/kiosks" className="individualProductsLink"><div className="individualProducts">
+            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fskids.JPG?alt=media&token=cc105174-8335-4c2e-b75d-fda19601eeef"></img>
+            <div className="individualProductsDescription">
+              <h3 className="individualProductsTitle">Kiosks</h3>
+              <p className="individualProductsText">We will build your Kiosks.</p>
             </div>
           </div></a>
             </div>

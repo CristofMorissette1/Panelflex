@@ -38,7 +38,7 @@ class Home extends Component {
         <Header/>         
         <div className="homeHeaderContainer">
           <h1 className="homeMainTitle">We Build Electrical Control Panels</h1>
-          <h3 className="homeTitleSmall">PANELFLEX is a CSA approved, COR certified Custom Electrical Control Panel Solutions provider</h3>
+          <h3 className="homeTitleSmall">PANELFLEX is a CSA and  cCSAus approved, COR certified Custom Electrical Control Panel Solutions provider</h3>
           <div className="homeHeaderButtons">
             <a className="homeFirstButton" href="/contact">Request a quote</a>
             <a className="homeSecondButton" href="/products">What can we do</a>
