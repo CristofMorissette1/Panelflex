@@ -28,7 +28,7 @@ class PclPanels extends Component {
                     <p className="pclIntroText"><b>Panelflex builds a variety of PLC panels for refrigeration, compression, plant facilities, waste water and many other applications.</b></p>
                     <h2 className="pclTitleSmall">Cabinet and Construction:</h2>
                     <img className="pclPic1" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fpcl%20pic.png?alt=media&token=40ed411b-741d-494c-a00f-071caf744036"/>
-                    <p className="pclIntroText"><b>All PLC panels are fabricated in standard NEMA 12/4/4X enclosures assembled by experienced technicians. Panel assemblies are CSA General Purpose or CSA Class I Div 2 certified. cUL is available as an option (where applicable).</b></p>
+                    <p className="pclIntroText"><b>All PLC panels are fabricated in standard NEMA 12/3R/4/4X enclosures assembled by experienced technicians. Panel assemblies are CSA General Purpose or CSA Class I Div 2 certified. cUL is available as an option (where applicable).</b></p>
                     <h2 className="pclTitleSmall">I/O Wiring:</h2>
                     <p className="pclIntroText"><b>All PLC I/O points are wired at our shop to terminal blocks for use in terminating customer-supplied pilot devices or wiring from field devices. All wiring internal to the panel is factory-tested for continuity prior to shipment.</b></p>
                     <h2 className="pclTitleSmall">Specific Components Used:</h2>

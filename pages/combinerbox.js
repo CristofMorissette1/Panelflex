@@ -32,7 +32,7 @@ class Combinerbox extends Component {
                         <li className="pclListItem">CSA approved</li>
                         <li className="pclListItem">Up to 36 input circuits</li>
                         <li className="pclListItem">90C terminals</li>
-                        <li className="pclListItem">NEMA 3R, 4 & 4X enclosures</li>
+                        <li className="pclListItem">NEMA 12, 3R, 4 & 4X enclosures</li>
                     </b></ul>
                     <img className="pvPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Ffile.jpeg?alt=media&token=dfd8ec52-6209-4292-a54a-f3d4b0a7f890"/>
                     <h2 className="pclTitleSmall">Some Available Options:</h2>
