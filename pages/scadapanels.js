@@ -63,7 +63,7 @@ class ScadaPanels extends Component {
                 />
                 </div>
                 }
-                <img className="scadaPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FRTU.JPG?alt=media&token=5d465595-c142-4f53-8137-1ad2e16378c3"/>
+                <img className="scadaPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FRTU.jpg?alt=media&token=de061b71-4621-4615-9144-61a76119d41b"/>
                 <Footer/>
             </div>
         )

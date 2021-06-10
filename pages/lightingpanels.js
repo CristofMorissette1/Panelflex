@@ -31,7 +31,7 @@ class LightingPanels extends Component {
                     <h2 className="pclTitleSmall">Some more information:</h2>
                     <p className="pclIntroText"><b>Contactors are utilized are specifically used for lighting applications, including metal halide, mercury vapor, quartz halogen, tungsten or fluorescent lighting. As the contactor(s)is mechanically held, the panels offer a quite operation and long life expectancy. We build to suit your design needs providing multi-pole contactor configurations in a various enclosures including NEMA 12, 3R, 4 and 4X.</b></p>
                 </div>
-                <img className="lightingPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Flighting%20Contactor%20Panel.JPG?alt=media&token=c3f3931b-1aea-4883-8758-1ee45227fe7f"/>
+                <img className="lightingPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Flighting%20Contactor%20Panel.jpg?alt=media&token=a17779e3-c929-4fe0-a8fe-1351ef06c029"/>
                 {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
                 {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>

@@ -19,6 +19,7 @@ import '../styles/chatbot.css';
 import '../styles/combinerbox.css';
 import '../styles/protectionPanels.css';
 import '../styles/skids.css';
+import '../styles/kiosks.css';
 
 
 function MyApp({ Component, pageProps }) {

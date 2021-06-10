@@ -103,9 +103,9 @@ this.state.check?this.setState({check: false}):this.setState({check: true})
             </div>
           </div></a>
           <a href="/kiosks" className="individualProductsLink"><div className="individualProducts">
-            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fskids.JPG?alt=media&token=cc105174-8335-4c2e-b75d-fda19601eeef"></img>
+            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FDSCF1696.jpg?alt=media&token=e955b4d0-7929-4bb9-97fa-aa3c57b715c8"></img>
             <div className="individualProductsDescription">
-              <h3 className="individualProductsTitle">Kiosks</h3>
+              <h3 className="individualProductsTitle">Electrical Kiosks</h3>
               <p className="individualProductsText">We will build your Kiosks.</p>
             </div>
           </div></a>

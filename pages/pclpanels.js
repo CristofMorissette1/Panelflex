@@ -32,7 +32,7 @@ class PclPanels extends Component {
                     <h2 className="pclTitleSmall">I/O Wiring:</h2>
                     <p className="pclIntroText"><b>All PLC I/O points are wired at our shop to terminal blocks for use in terminating customer-supplied pilot devices or wiring from field devices. All wiring internal to the panel is factory-tested for continuity prior to shipment.</b></p>
                     <h2 className="pclTitleSmall">Specific Components Used:</h2>
-                    <img className="pclPic3" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FPLC%20.JPG?alt=media&token=026eace9-e09e-487c-8c56-529e22dca3b9"/>
+                    <img className="pclPic3" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FPLC%20.jpg?alt=media&token=f19f568f-d6d1-4af1-b35e-25ed672a07f6"/>
                     <ul className="pclList"><b>
                         <li className="pclListItem">Enclosures - EEMAC 3, 3R, 4, 4X</li>
                         <li className="pclListItem">Auxiliary 24VDC Power Supplies</li>

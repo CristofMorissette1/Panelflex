@@ -1,0 +1,13 @@
+.kioskPic {
+    position: absolute;
+    margin-left: 35%;
+    width: 23%;
+    top: 48%;
+}
+
+.kioskPic2 {
+    position: absolute;
+    width: 23%;
+    top: 48%;
+    margin-left: 3%;
+}

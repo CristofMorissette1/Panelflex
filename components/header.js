@@ -112,7 +112,7 @@ class Header extends Component {
                                             <a className="navLinks" href="/combinerbox">PV Combiner box</a>
                                             <a className="navLinks" href="/protectionpanel">Protection Panels</a>
                                             <a className="navLinks" href="/skids">Buildings & Skids</a>
-                                            <a className="navLinks" href="/kiosks">Kiosks</a>
+                                            <a className="navLinks" href="/kiosks">Electrical Kiosks</a>
                                         </div>
                                     </div>
                                 ) :

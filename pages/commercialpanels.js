@@ -27,7 +27,7 @@ class CommercialPanels extends Component {
                 </div>
                 <hr className="border1"/>
                 <div className="pclBodyContainer">
-                    <img className="commercialPic1" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FTemp%20Control%20Panel.JPG?alt=media&token=5e81ab1a-f1c7-4257-9e91-cd33d5f8579c"/>
+                    <img className="commercialPic1" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FTemp%20Control%20Panel.jpg?alt=media&token=73b8fbca-dbc2-4c40-8431-a44673dadb0c"/>
                     <p className="pclIntroText"><b>We provide products and services for municipal and industrial markets.  The staff has over 20 years experience providing process control solutions and designing custom control panels for industrial applications.</b></p>
                     <h2 className="pclTitleSmall">Some more information:</h2>
                     <p className="pclIntroText"><b>Each custom panel has a project manager assigned which will follow the project from design through manufacturing, testing and shipping.  If your control needs are for a basic simplex pump application or a complete PLC based system with remote SCADA capabilities, located indoors, outdoors or in a hazardous location...PANELFLEX is your single source provider.</b></p>

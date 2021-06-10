@@ -12,12 +12,13 @@
 
 .lightingPic {
     position: absolute;
-    margin-left: 35%;
+    margin-left: 40%;
+    top: 46%;
 }
 
 .lightingPic2 {
     position: absolute;
-    width: 12%;
-    margin-left: 5%;
+    width: 18%;
+    margin-left: 3%;
     top: 48%
 }
