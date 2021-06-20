@@ -69,3 +69,27 @@
     font-size: 120%;
     font-weight: 300;
 }
+
+@media only screen and (max-width: 500px){
+    .productsMainText {
+        width: 85%;
+    }
+
+    .individualProductsImage {
+        display: none;
+    }
+
+    .individualProductsDescription {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .individualProductsText {
+        font-size: 110%;
+    }
+
+    .individualProductsTitle {
+        font-size: 145%;
+    }
+}

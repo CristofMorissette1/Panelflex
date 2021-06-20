@@ -12,11 +12,26 @@ class Header extends Component {
             csa: false,
             contact: false,
             col: false,
+            showMenu: false
         }
         this.showServicesMenu = this.showServicesMenu.bind(this);
         this.changeColour = this.changeColour.bind(this);
-        this. productColour = this.productColour.bind(this);
+        this.productColour = this.productColour.bind(this);
+        this.showMenu = this.showMenu.bind(this);
     }
+
+    showMenu(event) {
+        event.preventDefault();
+          if (this.state.showMenu == false) {
+          this.setState({
+            showMenu: true,
+          });
+        } else {
+          this.setState({
+            showMenu: false,
+          });
+        }
+      }
 
       showServicesMenu(e) {
           e.preventDefault();
@@ -134,6 +149,29 @@ class Header extends Component {
                             <a className="links" href="/contact"><p className="mainHeaderLinkText" style={this.state.col=='contact'?{color: '#E80700'}: {}}>Contact</p></a>
                         </div>
                     </div>
+                </div>
+                <div className="dropdownHeader">
+                    <div className="projectLink">
+                        <p onClick={this.showMenu}>Menu</p>
+                    </div>
+                    {
+                    this.state.showMenu
+                        ? (
+                        <div className="navMenu">
+                            <div className="navMenuLinks">
+                                <a className="navLinks" href="/">Home</a>
+                                <a className="navLinks" href="/products">Products</a>
+                                <a className="navLinks" href="/discoverpfx">Discover PFX</a>
+                                <a className="navLinks" href="/capabilities">Capabilities</a>
+                                <a className="navLinks" href="/csa">CSA</a>
+                                <a className="navLinks" href="/contact">Contact</a>
+                            </div>
+                        </div>
+                        )
+                        : (
+                        null
+                        )
+                    }
                 </div>
             </div>
         ); 

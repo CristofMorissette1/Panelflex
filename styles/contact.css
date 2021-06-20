@@ -180,3 +180,58 @@ button:hover {
 .maps_container {
     width: 5%;
 }
+
+@media only screen and (max-width: 1680px){
+    .googleMap {
+        width: 55%;
+    }
+}
+
+@media only screen and (max-width: 1220px){
+    .sideBarWebsite {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 1180px){
+    .googleMap {
+        height: 35vh;
+    }
+}
+
+@media only screen and (max-width: 1005px){
+    .googleMap {
+        top: 150% !important;
+    }
+
+    .contactButton {
+        width: 24%;
+    }
+}
+
+@media only screen and (max-width: 685px){
+    .contactPageContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactPageSideMenu {
+        width: 85%;
+    }
+
+    .mainContactForm {
+        width: 85%;
+    }
+
+    .googleMap {
+        top: 235% !important;
+        margin-left: 10% !important;
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 455px){
+    .contactButton {
+        width: 34%;
+    }
+}

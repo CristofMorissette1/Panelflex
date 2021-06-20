@@ -47,3 +47,45 @@
     font-weight: 400;
     font-size: 250%;
 }
+
+@media only screen and (max-width: 1335px){
+    .csaImage2 {
+        width: 45%;
+    }
+
+    .csaImage {
+        width: 19%;
+    }
+}
+
+@media only screen and (max-width: 1130px){
+    .csaImage2 {
+        width: 85%;
+    }
+
+    .csaImage {
+        width: 39%;
+    }
+}
+
+@media only screen and (max-width: 1130px){
+    .csaImage2 {
+        width: 85%;
+        height: 8vh;
+    }
+
+    .csaImage {
+        width: 39%;
+        height: 8vh;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .csaContainerSmall {
+        flex-direction: column;
+    }
+
+    .csaImage2 {
+        width: 50%;
+    }
+}

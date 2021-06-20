@@ -19,6 +19,35 @@
 .scadaPic2 {
     position: absolute;
     margin-left: 5%;
-    width: 14%;
+    width: 18%;
     top: 52%;
+}
+
+@media only screen and (max-width: 1300px){
+    .scadaPic2 {
+        width: 22%;
+        margin-left: 2%;
+    }
+
+    .scadaPic {
+        width: 18%;
+        margin-left: 38%;
+        top: 54%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .scadaPic {
+        top: 49%;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .scadaPic {
+        display: none;
+    }
+
+    .scadaPic2 {
+        display: none;
+    }
 }

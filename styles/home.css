@@ -191,3 +191,138 @@
     background-color: #e80700;
     transition-duration: 0.5s;
 }
+
+@media only screen and (max-width: 1460px){
+    .homeSecondButton {
+        width: 17%;
+        font-size: 125%;
+    }
+
+    .homeFirstButton {
+        width: 17%;
+        font-size: 125%;
+    }
+
+    .homeBodyButton {
+        width: 25%;
+    }
+
+    .homeCapabilitiesButton {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+
+    .homeBodyButton {
+        width: 35%;
+        font-size: 100%;
+    }
+
+    .homeBodyContainer {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .homeSecondButton {
+        width: 25%;
+    }
+
+    .homeFirstButton {
+        width: 25%;
+    }
+
+    .homeTitleSmall {
+        font-size: 125%;
+    }
+
+    .homeMainTitle {
+        font-size: 200%;
+    }
+
+    .homeMainCapabilitiesContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homeCapabilitiesContainer2 {
+        width: 85%;
+    }
+
+    .homeCapabilitiesContainer3 {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .homeSecondButton {
+        width: 30%;
+        font-size: 100%;
+    }
+
+    .homeFirstButton {
+        width: 30%;
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .homeCapabilitiesContainerTitle {
+        font-size: 275%;
+    }
+
+    .homeCapabilitiesContainer2 {
+        width: 95%;
+    }
+
+    .homeCapabilitiesContainer3 {
+        width: 95%;
+    }
+}
+
+
+@media only screen and (max-width: 451px){
+    .homeBodyTitle {
+        font-size: 225%;
+    }
+
+    .homeBodyTitleSmall {
+        font-size: 125%;
+    }
+
+    .homeBodyText {
+        font-size: 100%;
+    }
+
+    .homeBodyButton {
+        width: 55%;
+    }
+
+    .homeCapabilitiesButton {
+        width: 60%;
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 405px){
+    .homeSecondButton {
+        width: 45%;
+    }
+
+    .homeFirstButton {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 330px){
+    .homeBodyContainer {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homeBodyContainerSmall {
+        width: 85%;
+    }
+}

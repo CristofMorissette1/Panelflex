@@ -22,3 +22,37 @@
     margin-left: 3%;
     top: 48%
 }
+
+@media only screen and (max-width: 1600px) {
+    .lightingPic2 {
+        width: 22%;
+        top: 52%;
+        margin-left: 1%;
+    }
+
+    .lightingPic {
+        margin-left: 37%;
+    }
+}
+
+@media only screen and (max-width: 1335px) {
+    .lightingPic2 {
+        width: 24%;
+        top: 53%;
+    }
+
+    .lightingPic {
+        width: 23%;
+        top: 52%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .lightingPic2 {
+       display: none;
+    }
+
+    .lightingPic {
+        display: none;
+    }
+}

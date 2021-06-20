@@ -20,3 +20,27 @@
     display: flex;
     justify-content: center;
 }
+
+@media only screen and (max-width: 1350px) {
+    .skidsPic {
+        margin-left: 35%;
+        width: 18%;
+        top: 46%;
+    }
+    
+    .skidPic2 {
+        width: 20%;
+        top: 48%;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .skidsPic {
+        display: none;
+    }
+    
+    .skidPic2 {
+        display: none;
+    }
+}

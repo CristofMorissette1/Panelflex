@@ -76,7 +76,46 @@
 
 .pfxPic1 {
     position: absolute;
-    width: 12%;
-    margin-left: 39%;
-    margin-top: 35%;
+    width: 18%;
+    margin-top: 15%;
+    left: 3%;
+}
+
+@media only screen and (max-width: 900px){
+    .pfxPic1 {
+        display: none;
+    }
+
+    .pfxText {
+        width: 90%;
+    }
+
+    .pfxBodyContainerSmall {
+        width: 90%;
+        margin-left: 0%;
+    }
+
+    .pfxList {
+        width: 45%;
+    }
+
+    .facilityImages {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 355px){
+    .pfxBodyContainerSmall {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .pfxList {
+        width: 90%;
+        align-items: center;
+    }
+
+    .pfxListText {
+        width: 100%;
+    }
 }

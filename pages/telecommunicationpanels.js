@@ -23,7 +23,7 @@ class TelecommunicationPanels extends Component {
             <div className="pclPanelsMainContainer">
                 <Header/>
                 <div className="teleHeaderContainer">
-                    <h1 className="pclMainTitle">Instrument Racks/Telecommunication Panels</h1>
+                    <h1 className="teleMainTitle">Instrument Racks/Telecommunication Panels</h1>
                 </div>
                 <hr className="border1"/>
                 <div className="pclBodyContainer">

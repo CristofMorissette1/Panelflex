@@ -11,12 +11,42 @@
 }
 
 .instrumentPic {
-    margin-left: 60%;
+    margin-left: 70%;
     width: 15%;
 }
 
 .instrumentPic2 {
-    width: 15%;
+    width: 20%;
     position: absolute;
     top: 50%
+}
+
+.teleMainTitle {
+    position: absolute;
+    color: #fff;
+    font-size: 250%;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1000px) {
+    .instrumentPic2 {
+        top: 42%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .instrumentPic {
+        display: none;
+    }
+    
+    .instrumentPic2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .teleMainTitle {
+        font-size: 155%;
+    }
 }

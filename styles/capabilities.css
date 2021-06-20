@@ -101,3 +101,123 @@
 .capabilitiesPic10 {
     width: 13%;
 }
+
+@media only screen and (max-width: 1550px){
+    .capabilitiesList {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1490px){
+    .capabilitiesList {
+        width: 70%;
+    }
+
+    .capabilitiesPic1 {
+        position: absolute;
+        margin-left: 40%;
+        width: 13%;
+        margin-top: 9%;
+    }
+    
+    .capabilitiesPic2 {
+        position: absolute;
+        margin-top: 18%;
+        margin-left: 40%;
+        width: 13%;
+    }
+    
+    .capabilitiesPic3 {
+        position: absolute;
+        width: 13%;
+        left: 5%;
+        margin-top: 8%;
+    }
+    .capabilitiesPic4 {
+        position: absolute;
+        width: 13%;
+        left: 5%;
+        margin-top: 17%;
+    }
+}
+
+@media only screen and (max-width: 1190px){
+    .capabilitiesPic1 {
+        position: absolute;
+        margin-left: 40%;
+        width: 18%;
+        margin-top: 15%;
+    }
+    
+    .capabilitiesPic2 {
+        position: absolute;
+        margin-top: 27%;
+        margin-left: 40%;
+        width: 18%;
+    }
+    
+    .capabilitiesPic3 {
+        position: absolute;
+        width: 17%;
+        left: 2%;
+        margin-top: 15%;
+    }
+    .capabilitiesPic4 {
+        position: absolute;
+        width: 17%;
+        left: 2%;
+        margin-top: 27%;
+    }
+
+    .capabilitiesList {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 930px){
+    .capabilitiesPic1 {
+        display: none;
+    }
+    
+    .capabilitiesPic2 {
+        display: none;
+    }
+    
+    .capabilitiesPic3 {
+        display: none;
+    }
+    .capabilitiesPic4 {
+        display: none;
+    }
+
+    .capabilitiesList {
+        width: 100%;
+    }
+
+    .listItem {
+        width: 24%;
+    }
+}
+
+@media only screen and (max-width: 551px){
+    .listItem {
+        margin-right: 3.5%;
+    }
+
+    .capabilitiesContainer {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .listItem {
+        width: 100%;
+    }
+
+    .capabilitiesList {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

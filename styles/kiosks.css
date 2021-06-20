@@ -11,3 +11,31 @@
     top: 48%;
     margin-left: 3%;
 }
+
+@media only screen and (max-width: 1350px) {
+    .kioskPic {
+        margin-left: 37%;
+        width: 25%;
+        top: 50%;
+    }
+    
+    .kioskPic2 {
+        width: 26%;
+        top: 50%;
+        margin-left: 1%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .kioskPic {
+        display: none;
+    }
+    
+    .kioskPic2 {
+        display: none;
+    }
+
+    .skidsIntroText {
+        width: 85%;
+    }
+}

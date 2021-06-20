@@ -23,3 +23,33 @@
     top: 47%;
     margin-left: 3%;
 }
+
+@media only screen and (max-width: 1380px) {
+    .marshallingPic2 {
+        width: 22%;
+        margin-left: 1%;
+        top: 50%;
+    }
+
+    .marshallingPic {
+        width: 12%;
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .marshallingPic {
+        width: 14%;
+        top: 44%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .marshallingPic {
+        display: none;
+    }
+
+    .marshallingPic2 {
+        display: none;
+    }
+}

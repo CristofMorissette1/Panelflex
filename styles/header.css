@@ -81,3 +81,42 @@
 .navLinks:hover {
     color:#e80700;
 }
+
+.dropdownHeader{
+    visibility: hidden;
+    position: absolute;
+}
+
+@media only screen and (max-width: 1000px){
+    .dropdownHeader{
+        visibility: visible;
+        font-weight: 500;
+        width: 100%; 
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .navMenu {
+        width: 30%;
+        margin-top: -1%;
+    }
+
+    .navMenuLinks {
+        background-color: white;
+    }
+
+    .navLinks {
+        background-color: white;
+        color: #e80700;
+    }
+
+    .mainHeader {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 255px){
+    .navMenu {
+        width: 45%;
+    }
+}

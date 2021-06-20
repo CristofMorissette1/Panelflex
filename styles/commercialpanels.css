@@ -16,3 +16,24 @@
     width: 14%;
     top: 44%;
 }
+
+@media only screen and (max-width: 1515px) {
+    .commercialPic1 {
+        left: 1%;
+        width: 17%;
+        top: 46%;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .commercialPic1 {
+        width: 20%;
+        top: 50%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .commercialPic1 {
+        display: none;
+    }
+}

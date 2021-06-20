@@ -21,3 +21,26 @@
     margin-left: 40%;
     width: 15%;
 }
+
+@media only screen and (max-width: 1450px) {
+    .vdfPic1 {
+        width: 16%;
+        left: 2%;
+        top: 50%;
+    }
+
+    .vdfPic2 {
+        width: 19%;
+        top: 50%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .vdfPic1 {
+        display: none;
+    }
+
+    .vdfPic2 {
+        display: none;
+    }
+}
