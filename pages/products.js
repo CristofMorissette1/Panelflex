@@ -24,7 +24,7 @@ this.state.check?this.setState({check: false}):this.setState({check: true})
               <h1 className="pfxMainTitle">Products & Services</h1>
             </div>
             <div className="product2ndContainer">
-          <p className="productsMainText">Panelflex offers a wide range of high-end affordable electrical panels. Their durability and advanced fastener systems allow for long lasting aesthetically pleasing finishes which make them ideal for both commercial and industrial projects.</p>   
+          <p className="productsMainText">Panelflex builds custom electrical panels that meet project specific needs.  Our experience and top quality assemblies will offer long lasting performance and durability you can count on.  Below are a few examples of the types of panels we can build. Let us know what we can build for you.</p>   
           <a href="/pclpanels" className="individualProductsLink"><div className="individualProducts">
             <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fpcl%20panels%20image1.jpg?alt=media&token=6c6eead1-ccd8-4bef-8fe4-4078d1a2a4e7"></img>
             <div className="individualProductsDescription">

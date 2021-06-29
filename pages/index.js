@@ -38,7 +38,7 @@ class Home extends Component {
         <Header/>         
         <div className="homeHeaderContainer">
           <h1 className="homeMainTitle">We Build Electrical Control Panels</h1>
-          <h3 className="homeTitleSmall">Panelflex builds custom electrical panels that meet project specific needs.  Our experience and top quality assemblies will offer long lasting performance and durability you can count on.  Below are a few examples of the types of panels we can build. Let us know what we can build for you.</h3>
+          <h3 className="homeTitleSmall">PANELFLEX is a CSA and  cCSAus approved, COR certified Custom Electrical Control Panel Solutions provider</h3>
           <div className="homeHeaderButtons">
             <a className="homeFirstButton" href="/contact">Request a quote</a>
             <a className="homeSecondButton" href="/products">What can we do</a>
