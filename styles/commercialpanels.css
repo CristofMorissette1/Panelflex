@@ -17,6 +17,13 @@
     top: 44%;
 }
 
+.commercialPic2 {
+    margin-left: 80%;
+    position: absolute;
+    top: 45%;
+    width: 14%;
+}
+
 @media only screen and (max-width: 1515px) {
     .commercialPic1 {
         left: 1%;

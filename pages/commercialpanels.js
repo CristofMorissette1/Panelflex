@@ -32,6 +32,7 @@ class CommercialPanels extends Component {
                     <h2 className="pclTitleSmall">Some more information:</h2>
                     <p className="pclIntroText"><b>Each custom panel has a project manager assigned which will follow the project from design through manufacturing, testing and shipping.  If your control needs are for a basic simplex pump application or a complete PLC based system with remote SCADA capabilities, located indoors, outdoors or in a hazardous location...PANELFLEX is your single source provider.</b></p>
                 </div>
+                <img className="commercialPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FDSCF6648.jpg?alt=media&token=9bf72a4b-45f1-4ddd-b320-54470ab5b4bc"/>
                 {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
                 {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
