@@ -36,12 +36,11 @@ class Chatbot extends React.Component{
       }
     }
     const sendMail = async () => {
-      console.log("Ander name", this.state)
       var name = this.state.name;
       var email = this.state.email;
       var company = this.state.company;
       var position = this.state.position;
-      const rawResponse = await fetch('http://localhost:3000/api', {
+      const rawResponse = await fetch('http://localhost:3001/api/form', {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
