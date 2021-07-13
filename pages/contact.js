@@ -39,7 +39,7 @@ class Contact extends Component {
 
     const { firstName, lastName, phone, email, message} = this.state;
 
-    const form = axios.post('http://localhost:3001/api/form', {
+    const form = axios.post('https://fierce-beach-35169.herokuapp.com/api/form', {
       firstName,
       lastName,
       phone,

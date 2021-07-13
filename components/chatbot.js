@@ -40,7 +40,7 @@ class Chatbot extends React.Component{
       var email = this.state.email;
       var company = this.state.company;
       var position = this.state.position;
-      const rawResponse = await fetch('http://localhost:3001/api/form', {
+      const rawResponse = await fetch('https://thawing-castle-16500.herokuapp.com/api/form', {
     method: 'POST',
     headers: {
       'Accept': 'application/json',
