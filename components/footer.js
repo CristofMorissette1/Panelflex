@@ -23,9 +23,7 @@ class Footer extends Component {
               <a className="footerContainerInfo" href="/contact"><b>Contact →</b></a>
           </div>
           <div className="footerIcons">
-            <a className="icon" href="https://www.facebook.com/jaysmetalproducts/"><FaFacebookF/></a>
-            <a className="icon" href="https://www.instagram.com/jaysmetalproducts/"><FaInstagramSquare/></a>
-            <a className="icon" href="https://www.linkedin.com/company/jay-s-metal-products/"><FaLinkedin/></a>
+            <a className="icon" href="https://www.linkedin.com/company/panelflex/"><FaLinkedin/></a>
           </div>
       </div>
     )

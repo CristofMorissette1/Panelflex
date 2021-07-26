@@ -32,7 +32,7 @@ class Kiosks extends Component {
                     <h2 className="pclTitleSmall">Enclosure options include:</h2>
                     <ul className="pclList"><b>
                         <li className="pclListItem">Stainless Steel</li>
-                        <li className="pclListItem">Carbon Steal and Galvanized</li>
+                        <li className="pclListItem">Carbon Steel and Galvanized</li>
                     </b></ul>
                 </div>
                 <img className="kioskPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FDSCF4676.JPG?alt=media&token=f841d7a5-2622-4e19-a06b-7c959e996fc9"/>

@@ -235,3 +235,17 @@ button:hover {
         width: 34%;
     }
 }
+
+@media only screen and (max-width: 430px){
+    .sideBarWebsite {
+        width: 110%;
+    }
+
+    .contactName {
+        font-size: 120%;
+    }
+
+    .contactText {
+        font-size: 80%;
+    }
+}
