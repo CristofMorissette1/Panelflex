@@ -33,7 +33,7 @@ this.state.check?this.setState({check: false}):this.setState({check: true})
             </div>
           </div></a>
           <a href="/scadapanels" className="individualProductsLink"><div className="individualProducts">
-            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/RTU%20panel%2FRTU%20panel.png?alt=media&token=c516371f-cc75-4c67-a58f-53954d728581"></img>
+            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Discover%20PFX%2Fdiscover%20pfx3.jpg?alt=media&token=bdd946f3-5673-4828-89f7-48a97f499aed"></img>
             <div className="individualProductsDescription">
               <h3 className="individualProductsTitle">Scada/RTU Panels</h3>
               <p className="individualProductsText">Whether the communication medium is HMI or device selections, Panelflex’s SCADA experience will provide the best value and fit for your application.</p>
@@ -103,7 +103,7 @@ this.state.check?this.setState({check: false}):this.setState({check: true})
             </div>
           </div></a>
           <a href="/kiosks" className="individualProductsLink"><div className="individualProducts">
-            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FDSCF1696.jpg?alt=media&token=e955b4d0-7929-4bb9-97fa-aa3c57b715c8"></img>
+            <img className="individualProductsImage" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Electrical%20kiosks%2Fkiosk1.png?alt=media&token=a6323e00-ef9b-417e-ac26-6c1dd345c18b"></img>
             <div className="individualProductsDescription">
               <h3 className="individualProductsTitle">Electrical Kiosks</h3>
               <p className="individualProductsText">We will build your Kiosks.</p>

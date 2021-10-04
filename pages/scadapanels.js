@@ -28,7 +28,7 @@ class ScadaPanels extends Component {
                 <div className="pclBodyContainer">
                     <p className="pclIntroText"><b>Whether the communication medium is HMI or device selections, Panelflex’s SCADA experience will provide the best value and fit for your application. Panelflex has experience in automation solutions which include SCADA systems for any process catering to a variety of industrial and commercial projects from small scope to large projects. We manufacture CSA General Purpose or Class I Div 2 SCADA panels for new installations as well as system retrofits for existing fields.</b></p>
                     <h2 className="pclTitleSmall">Product Applications:</h2>
-                    <img className="scadaPic" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FDSCF5597.JPG?alt=media&token=80efd115-ba02-4312-8221-384d50ae0f41"/>
+                    <img className="scadaPic" src=""/>
                     <ul className="pclList"><b>
                         <li className="pclListItem">Wellhead Control</li>
                         <li className="pclListItem">Oil Theft Prevention</li>
@@ -63,7 +63,7 @@ class ScadaPanels extends Component {
                 />
                 </div>
                 }
-                <img className="scadaPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FRTU.jpg?alt=media&token=de061b71-4621-4615-9144-61a76119d41b"/>
+                <img className="scadaPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Discover%20PFX%2Fdiscover%20pfx3.jpg?alt=media&token=bdd946f3-5673-4828-89f7-48a97f499aed"/>
                 <Footer/>
             </div>
         )
