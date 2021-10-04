@@ -27,12 +27,12 @@ class PclPanels extends Component {
                 <div className="pclBodyContainer">
                     <p className="pclIntroText"><b>Panelflex builds a variety of PLC panels for refrigeration, compression, plant facilities, waste water and many other applications.</b></p>
                     <h2 className="pclTitleSmall">Cabinet and Construction:</h2>
-                    <img className="pclPic1" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fpcl%20pic.png?alt=media&token=40ed411b-741d-494c-a00f-071caf744036"/>
+                    <img className="pclPic1" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/PLC%20Panel%2FPLC%20panel.png?alt=media&token=900084cc-ffc8-439a-9c15-668168d93cbf"/>
                     <p className="pclIntroText"><b>All PLC panels are fabricated in standard NEMA 12/3R/4/4X enclosures assembled by experienced technicians. Panel assemblies are CSA General Purpose or CSA Class I Div 2 certified. cUL is available as an option (where applicable).</b></p>
                     <h2 className="pclTitleSmall">I/O Wiring:</h2>
                     <p className="pclIntroText"><b>All PLC I/O points are wired at our shop to terminal blocks for use in terminating customer-supplied pilot devices or wiring from field devices. All wiring internal to the panel is factory-tested for continuity prior to shipment.</b></p>
                     <h2 className="pclTitleSmall">Specific Components Used:</h2>
-                    <img className="pclPic3" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FPLC%20.jpg?alt=media&token=f19f568f-d6d1-4af1-b35e-25ed672a07f6"/>
+                    <img className="pclPic3" src=""/>
                     <ul className="pclList"><b>
                         <li className="pclListItem">Enclosures - EEMAC 3, 3R, 4, 4X</li>
                         <li className="pclListItem">Auxiliary 24VDC Power Supplies</li>
@@ -49,7 +49,7 @@ class PclPanels extends Component {
                         <li className="pclListItem">Ethernet Switch</li>
                     </b></ul>
                 </div>
-                <img className="pclPic4" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FPLC%20image.JPG?alt=media&token=7ab7345b-e0b0-4c9a-b16f-4ad3cc36f045"/>
+                <img className="pclPic4" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/PLC%20Panel%2FPLC%20panel2.png?alt=media&token=fbe999d6-ad92-42aa-85b2-febfd1f57c0a"/>
                 {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
         {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
@@ -73,7 +73,7 @@ class PclPanels extends Component {
         />
         </div>
         }
-                <img className="pclPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fpcl%20pic2.jpg?alt=media&token=2b671013-89d2-4985-8fcd-671875c5e1ac"/>
+                <img className="pclPic2" src=""/>
                 <Footer/>
             </div>
         )

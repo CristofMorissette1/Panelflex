@@ -28,7 +28,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,.6)), url("https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/home%2FHome%20pic%202.jpg?alt=media&token=bd22639b-1e91-4225-901c-fb2faf1c58b2");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,.6)), url("https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Home%2FHome%20pic1.jpg?alt=media&token=038bcb6a-ca24-4ab9-b6b5-b6a6cb486327");
     height: 100vh;
     background-size: cover;
 }
@@ -130,7 +130,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url("https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/home%2FAdobeStock_280443923.jpeg?alt=media&token=be970824-2a9b-4b0e-932f-59a1e42858c6");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0,1)), url("https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Capabilities%2Fthumbnail_Drilling.jpg?alt=media&token=84d2cf37-b6ce-4ef7-b452-e27a9c0460de");
     background-size: cover;
 }
 

@@ -28,7 +28,7 @@ class MarshallingPanels extends Component {
                 <hr className="border1"/>
                 <div className="pclBodyContainer">
                     <p className="pclIntroText"><b>Panelfllex promises industry leading quality in manufacturing custom marshalling Distributed Control Systems (DCS) panels. Our staff provides estimates, project coordination and procurement, and our shop workers are experienced in installing DCS systems.</b></p>
-                    <img className="marshallingPic" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FDCS.jpg?alt=media&token=72288a42-cbe9-4d3b-b57e-98f4385eaa8d"/>
+                    <img className="marshallingPic" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Marshalling%20Control%20Panel%2FDSC4.jpg?alt=media&token=b1c9e18f-5d71-412a-8a9a-ab47949153b5"/>
                     <h2 className="pclTitleSmall">Some of the services offered:</h2>
                     <ul className="pclList"><b>
                         <li className="pclListItem">Assembly, wiring, and product testing</li>
@@ -62,7 +62,7 @@ class MarshallingPanels extends Component {
                 />
                 </div>
                 }
-                <img className="marshallingPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fmarshalling%20panel.jpg?alt=media&token=7cff3188-b0c6-4c14-8423-2bd23ebc3e92"/>
+                <img className="marshallingPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Marshalling%20Control%20Panel%2FDCS3.png?alt=media&token=444d03a5-c150-4703-ad99-dfc696026dcc"/>
                 <Footer/>
             </div>
         )

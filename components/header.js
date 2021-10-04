@@ -103,7 +103,7 @@ class Header extends Component {
         return (
             <div className="Header">
                 <div className="mainHeader">
-                    <a href="/"><img className="logo" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/Header%2FPanelflex.jpg?alt=media&token=e3229ecb-67d3-4a00-952e-10caa1e86196"/></a>
+                    <a href="/"><img className="logo" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/panelflex%20logo.png?alt=media&token=81633dd9-aaad-4986-9dfe-f3c62dbae415"/></a>
                     <div className="link_container">
                         <div className="linkContainerSmall">
                             <a className="links" href="/"><p className="mainHeaderLinkText" style={this.state.col=='home'?{color: '#E80700'}: {}} >Home</p></a>

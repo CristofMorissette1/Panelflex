@@ -28,10 +28,10 @@ class Capabilities extends Component {
                 <Header/>
                 <p className="capabilitiesTitle">Production Capabilities</p>
                 <div className="capabilitiesContainer">
-                    <img className="capabilitiesPic1" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/production%20capabilities%2FDrilling.jpg?alt=media&token=87dca99d-db7f-49d3-aee3-0956323d0d81"/>
-                    <img className="capabilitiesPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/production%20capabilities%2FFrestry.jpg?alt=media&token=c4973ef7-ad78-4080-b37d-6313707c5bc5"/>
-                    <img className="capabilitiesPic3" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/production%20capabilities%2FMining.jpg?alt=media&token=fd962d74-ef2f-4c82-8779-f210a3322d56"/>
-                    <img className="capabilitiesPic4" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/production%20capabilities%2FPetro%20chamical.jpg?alt=media&token=d993d840-a340-48e1-b323-21e24ef20262"/>
+                    <img className="capabilitiesPic1" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Capabilities%2Fthumbnail_Drilling.jpg?alt=media&token=84d2cf37-b6ce-4ef7-b452-e27a9c0460de"/>
+                    <img className="capabilitiesPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Capabilities%2FFrestry.jpg?alt=media&token=7b95f00c-8f9b-4e9a-bb6c-fe162da666b0"/>
+                    <img className="capabilitiesPic3" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Capabilities%2Fthumbnail_Mining.jpg?alt=media&token=7cc16963-7a5c-4488-90fa-286162a38691"/>
+                    <img className="capabilitiesPic4" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Capabilities%2FPetro%20chamical.jpg?alt=media&token=86e0a5a0-8a07-4a0b-8f79-9123fb3be622"/>
                     <p className="capabilitiesTitleSmall">Panelflex is capable of completing many types of projects, including but not limited to:</p>
                     <ul className="capabilitiesList">
                         <li className="listItem">Plant PLC Panels</li>
@@ -78,12 +78,11 @@ class Capabilities extends Component {
                         <li className="listItem">Petro-Chemical</li>
                     </ul>
                     <div className="capabilitiesPicContainer">
-                    <img className="capabilitiesPic5" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/production%20capabilities%2FShipping.jpg?alt=media&token=b0cc1f31-424b-4476-bd46-032aee4ccfb9"/>
-                    <img className="capabilitiesPic6" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/production%20capabilities%2FTransportation%20picture.jpg?alt=media&token=010982ba-9864-403d-9ce1-b3dd5252ef3f"/>
-                    <img className="capabilitiesPic7" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/production%20capabilities%2Fbitcoin%20mining.jpg?alt=media&token=aebb131a-479d-4a65-b8a8-0051bbd39ad0"/>
-                    <img className="capabilitiesPic8" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/production%20capabilities%2Fsience%20station.jpg?alt=media&token=08b8a826-e241-46d1-81ef-fc9e1910bfdf"/>
-                    <img className="capabilitiesPic9" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/production%20capabilities%2Fsolar.jpg?alt=media&token=4108190f-aa27-49d9-9e09-fe19d2ec6af0"/>
-                    <img className="capabilitiesPic10" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/production%20capabilities%2Futility.jpg?alt=media&token=58daa811-95e4-45a0-b475-63ed4c3d6411"/>
+                    <img className="capabilitiesPic5" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Capabilities%2Fthumbnail_Shipping.jpg?alt=media&token=b68c4552-2666-48a7-8334-b25f0dea2cb4"/>
+                    <img className="capabilitiesPic6" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Capabilities%2Fthumbnail_Transportation%20picture.jpg?alt=media&token=b080b05b-6191-4dc0-98ea-479426bfbb83"/>
+                    <img className="capabilitiesPic7" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Capabilities%2Fthumbnail_bitcoin%20mining.jpg?alt=media&token=3ff17279-52c6-4dac-b03f-00a7a3392121"/>
+                    <img className="capabilitiesPic8" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Capabilities%2Fthumbnail_sience%20station.jpg?alt=media&token=b60d6514-2365-4d7b-9ae9-9da6cfb6ec17"/>
+                    <img className="capabilitiesPic9" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/Capabilities%2Fthumbnail_solar.jpg?alt=media&token=b52a814e-ba0f-4e3f-9db0-ba45e9154f91"/>
                     
                     </div>
                 </div>
