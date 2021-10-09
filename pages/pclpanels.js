@@ -49,7 +49,7 @@ class PclPanels extends Component {
                         <li className="pclListItem">Ethernet Switch</li>
                     </b></ul>
                 </div>
-                <img className="pclPic4" src="https://firebasestorage.googleapis.com/v0/b/panelflex-new.appspot.com/o/PLC%20Panel%2FPLC%20panel2.png?alt=media&token=fbe999d6-ad92-42aa-85b2-febfd1f57c0a"/>
+                <img className="pclPic4" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2FPLC%20image.JPG?alt=media&token=7ab7345b-e0b0-4c9a-b16f-4ad3cc36f045"/>
                 {this.state.check?<div style={{position: 'fixed', bottom: '10px', right: '20px' }}><Chatbot />
         {/* <button style={{marginTop: '20px',marginRight: '0px', marginLeft: 'auto'}} onClick={this.changeCheck}>Open Chat</button> */}
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
@@ -73,7 +73,7 @@ class PclPanels extends Component {
         />
         </div>
         }
-                <img className="pclPic2" src=""/>
+                <img className="pclPic2" src="https://firebasestorage.googleapis.com/v0/b/panelflex-7663b.appspot.com/o/products%20%26%20services%2Fpcl%20pic2.jpg?alt=media&token=2b671013-89d2-4985-8fcd-671875c5e1ac"/>
                 <Footer/>
             </div>
         )
